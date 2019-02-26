@@ -64,6 +64,19 @@ li {
   margin-bottom: 5px;
 }
 
+canvas {
+  border: 1px solid purple;
+}
+
+.chart-container {
+  position: relative;
+  height: 40%;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 footer {
   margin-top: 50px;
   padding-top: 25px;
