@@ -106,6 +106,15 @@ document.addEventListener("DOMContentLoaded", () => {
       .setPin(slides[i])
       .addTo(controller);
   }
+  
+  
+  // Marvel API data
+  fetch('/characters').then(resp => resp.json()).then((data) => {
+    console.group('%cResponse from /characters', 'color: #4B9CD3; font-size: large');
+    console.log(data);
+    console.groupEnd();  
+  
+  });
 
   // end of Document.addEventlistener
 });

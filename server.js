@@ -32,10 +32,15 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 //------------------------- API CALLS -------------------------//
 //-------------------------------------------------------------//
-marvel.characters.findByName('spider-man')
-  .then(console.log.data)
-  .fail(console.error)
-  .done();
+
+app.get('/characters', function (request, response) {
+  marvel.characters.findAll()
+    .then((data) => {
+      response.send(data);
+    }, function(err) {
+      console.error(err);
+    });    
+});
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
