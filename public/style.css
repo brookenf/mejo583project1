@@ -10,6 +10,12 @@ body {
   margin: 0 auto;
 }
 
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
   color: #4B9CD3;
 }
