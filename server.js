@@ -17,6 +17,28 @@ app.get('/', function(request, response) {
 });
 
 
+//-------------------------------------------------------------//
+//----------------------- AUTHORIZATION -----------------------//
+//-------------------------------------------------------------//
+
+//Initialize Marvel wrapper
+var api = require('marvel-api');
+
+var marvelApi = new marvelWebApi({
+  clientId : process.env.CLIENT_ID,
+  clientSecret : process.env.CLIENT_SECRET
+});
+
+marvelApi.clientCredentialsGrant()
+  .then(function(data) {
+  
+    // Save the access token so that it's used in future calls
+    marvelApi.setAccessToken(data.body['access_token']);
+    console.log('Got an access token: ' + marvelApi.getAccessToken());
+  
+  }, function(err) {
+    console.log('Something went wrong when retrieving an access token', err.message);
+  });
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
