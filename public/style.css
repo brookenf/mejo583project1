@@ -11,8 +11,7 @@ body {
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  color: #4B9CD3;
 }
 
 .bold {
@@ -62,6 +61,19 @@ button:active {
 
 li {
   margin-bottom: 5px;
+}
+
+canvas {
+  border: 1px solid purple;
+}
+
+.chart-container {
+  position: relative;
+  height: 40%;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 footer {

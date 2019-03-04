@@ -16,6 +16,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import Chart.js library via CDN, per Chart.js documentation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js" defer></script>
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
@@ -24,13 +27,34 @@
     <script src="/client.js" defer></script>
   </head>
   <body>
+    
     <header>
       <h1>
-        A Dream of the Future
+        Brooke's Really Awesome Marvel API chart project - with an SVG :D
       </h1>
     </header>
 
     <main>
+      
+      <!--chart JS html here-->
+      <h1>Cool data about Marvel will go here :)</h1>
+      <p>
+        A client-side <a href="https://chartjs.org">Chart.js</a> example bar & pie chart showing population by continent.
+      </p>
+
+      <div class="chart-container">
+        <canvas id="barChart" aria-label="A bar chart showing continental population" role="img">
+        </canvas>
+      </div>
+      <div class="chart-container">
+        <canvas id="pieChart" aria-label="A pie chart showing continental population" role="img">
+        </canvas>
+      </div>
+    
+      <p>
+        Data from <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia</a>, retrieved 1/2/2019
+      </p>   
+      
       <p class="bold">Oh hi,</p>
       
       <p>Tell me your hopes and dreams:</p>
