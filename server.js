@@ -24,23 +24,21 @@ app.get('/', function(request, response) {
 //Initialize Marvel wrapper
 var api = require('marvel-api');
 
-var marvelApi = new marvelWebApi({
-  clientId : process.env.CLIENT_ID,
-  clientSecret : process.env.CLIENT_SECRET
+var marvel = api.createClient({
+  publicKey: process.env.publicKey,
+  privateKey: process.env.privateKey
 });
 
-marvelApi.clientCredentialsGrant()
-  .then(function(data) {
-  
-    // Save the access token so that it's used in future calls
-    marvelApi.setAccessToken(data.body['access_token']);
-    console.log('Got an access token: ' + marvelApi.getAccessToken());
-  
-  }, function(err) {
-    console.log('Something went wrong when retrieving an access token', err.message);
-  });
+//-------------------------------------------------------------//
+//------------------------- API CALLS -------------------------//
+//-------------------------------------------------------------//
+marvel.characters.findByName('spider-man')
+  .then(console.log.data)
+  .fail(console.error)
+  .done();
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
   console.log('Your app is listening on port ' + listener.address().port);
 });
+
