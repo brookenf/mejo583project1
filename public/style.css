@@ -7,7 +7,7 @@
 
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
+  margin: 0 auto;
 }
 
 h1 {
@@ -65,6 +65,11 @@ li {
 
 canvas {
   border: 1px solid purple;
+}
+
+.panel{
+  width: 100vw;
+  height: 100vh;
 }
 
 .chart-container {

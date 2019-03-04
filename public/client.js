@@ -3,49 +3,11 @@
 
 console.log('hello world :o');
 
-// our default array of dreams
-const dreams = [
-  'Find and count some sheep',
-  'Climb a really tall mountain',
-  'Wash the dishes'
-];
-
-// define variables that reference elements on our page
-const dreamsList = document.getElementById('dreams');
-const dreamsForm = document.forms[0];
-const dreamInput = dreamsForm.elements['dream'];
-
-// a helper function that creates a list item for a given dream
-const appendNewDream = function(dream) {
-  const newListItem = document.createElement('li');
-  newListItem.innerHTML = dream;
-  dreamsList.appendChild(newListItem);
-}
-
-// iterate through every dream and add it to our page
-dreams.forEach( function(dream) {
-  appendNewDream(dream);
-});
-
-// listen for the form to be submitted and add a new dream when it is
-dreamsForm.onsubmit = function(event) {
-  // stop our form submission from refreshing the page
-  event.preventDefault();
-
-  // get dream value and add it to the list
-  dreams.push(dreamInput.value);
-  appendNewDream(dreamInput.value);
-
-  // reset form 
-  dreamInput.value = '';
-  dreamInput.focus();
-};
-
 // let the editor know that `Chart` is defined by some code
 // included in another file (in this case, `index.html`)
 // Note: the code will still work without this line, but without it you
 // will see an error in the editor
-/* global Chart */
+/* global Chart, ScrollMagic */
 
 // create an object with world population data
 const data = {
@@ -124,3 +86,24 @@ const pieChart = new Chart(pie, {
     }]
   }
 });
+
+// Scroll Magic
+
+		var controller = new ScrollMagic.Controller({
+			globalSceneOptions: {
+				triggerHook: 'onLeave'
+			}
+		});
+
+		// get all slides
+		var slides = document.querySelectorAll("section.panel");
+
+		// create scene for every slide
+		for (var i=0; i<slides.length; i++) {
+			new ScrollMagic.Scene({
+					triggerElement: slides[i]
+				})
+				.setPin(slides[i])
+				.addIndicators() // add indicators (requires plugin)
+				.addTo(controller);
+		
