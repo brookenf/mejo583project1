@@ -152,8 +152,11 @@ document.addEventListener("DOMContentLoaded", () => {
     html += `<p>${data.description}</p>`;
     
     // Get series, events, episode data
-    html += '<p>Since Spider-Man swung into action in August 1962, he has been a fan favorite in the Marvel Comic Universe. He has been portrayed by three separate actors:';
-    html += '<a href="https://www.imdb.com/name/nm0001497/" target="_blank">Tobey Maguire,</a> <a href="https://www.imdb.com/name/nm0001497/" target="_blank">Andrew Garfield</a> and most recently, <a href="https://www.imdb.com/name/nm0001497/" target="_blank">Tom Holland.</a>';
+    html += '<p>Since Spider-Man swung into action in August 1962, he has been a fan favorite in the Marvel Comic Universe.'; 
+    html += 'He has been portrayed by three separate actors:';
+    html += '<a href="https://www.imdb.com/name/nm0001497/" target="_blank">Tobey Maguire</a>, ';
+    html += '<a href="https://www.imdb.com/name/nm0001497/" target="_blank">Andrew Garfield</a> and most recently, '; 
+    html += '<a href="https://www.imdb.com/name/nm0001497/" target="_blank">Tom Holland.</a>';
     html += '</p>';
     
     

@@ -79,13 +79,24 @@ canvas {
 }
 
 .spider-man a{
+  display: inline-block;
   color: inherit;
   transition: border-bottom 0.1s;
 }
 
-.spider-man a:hover {
-  border-bottom: solid 2px #447BBE;
+.spider-man a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #447BBE;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out; 
+  transform-origin:  0% 50%;
 }
+
+.spider-man a:hover:after {
+  transform: scaleX(1); 
+}
+
 
 
 
