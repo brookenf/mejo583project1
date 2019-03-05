@@ -65,11 +65,17 @@ document.addEventListener("DOMContentLoaded", () => {
       type: 'bar',
       data: creatorData,
       options: {
-        barValueSpacing: 20,
+        barValueSpacing: 10,
         scales: {
+            xAxes: [{
+                ticks: {
+                  autoSkip: false
+                }
+            }],
             yAxes: [{
                 ticks: {
                     min: 0,
+                    stepSize: 2000
                 }
             }]
         }
