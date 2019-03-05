@@ -135,6 +135,21 @@ document.addEventListener("DOMContentLoaded", () => {
      
   });
   
+  fetch('/spider-man').then(resp => resp.json()).then((data) => {
+    console.group('%cResponse from /spider-man', 'color: #4B9CD3; font-size: large');
+    console.log(data);
+    console.groupEnd();  
+  
+  
+  });
+  
+    fetch('/creators').then(resp => resp.json()).then((data) => {
+    console.group('%cResponse from /creators', 'color: #4B9CD3; font-size: large');
+    console.log(data);
+    console.groupEnd();  
+  
+  
+  });
   
 
   // end of Document.addEventlistener

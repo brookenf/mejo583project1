@@ -110,12 +110,11 @@ app.get('/characters', function(request, response) {
 
 // Get the Spider-Man data
 app.get('/spider-man', function(request, response) {
-  response.sendFile(__dirname + 'spider-man.json');
+  response.sendFile(__dirname + '/spider-man.json');
 });
 
 app.get('/creators', function(request, response) {
-  response.sendFile(__dirname + 'creators.json');
-  response.sendFile(__dirname + 'creators2.json');
+  response.sendFile(__dirname + '/creators.json');
 });
 
 // listen for requests :)
