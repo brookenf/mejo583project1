@@ -34,22 +34,37 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 //------------------------- API CALLS -------------------------//
 //-------------------------------------------------------------//
-marvel.characters.findAll(function(err, results) {
-  if (err) {
-    return console.error(err);
-  }
+// marvel.characters.findAll(function(err, results) {
+//   if (err) {
+//     return console.error(err);
+//   }
   
-  console.log(results);
-  //write to a file 
-  fs.writeFile("./characters.json", JSON.stringify(results, null, 2), (err) => {
-      if (err) {
-          console.error(err);
-          return;
-      };
-      console.log("File has been created");
-  });
-});
+//   console.log(results);
+//   //write to a file 
+//   fs.writeFile("./characters.json", JSON.stringify(results, null, 2), (err) => {
+//       if (err) {
+//           console.error(err);
+//           return;
+//       };
+//       console.log("File has been created");
+//   });
+// });
 
+marvel.characters.findByName('spider-man')
+  .then(function(res) {
+    console.log('Found character ID', res.data[0].id);
+    return marvel.characters.comics(res.data[0].id);
+    fs.writeFile("./spider-man.json", JSON.stringify(res.data[0].id, null, 2), (err) => {
+      if (err){
+        console.error(err);
+        return;
+      }; 
+      console.log('Spidey file created');
+    });
+                 
+  })
+  .fail(console.error)
+  .done();
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
