@@ -117,15 +117,17 @@ document.addEventListener("DOMContentLoaded", () => {
     var html = '';
     var char = document.getElementById('marvel-characters');
     
-    html += '<ul>';
         
     for(var i = 0; i < data.length; i ++) {
-      html += `<li>${data[i].name}</li>`;
+      html += '<div class="flex-column character__card">';
+        html += `<h1>${data[i].name}</h1>`;
+        // html += `<img src="${data[i].thumbnail.path}" alt="${data[i].name}">`;
+        html += `<p>${data[i].description}</p>`;
+      html += '</div>'
     }
     
-    html += '</ul>';
+    char.innerHTML = html;
     
-    char.innerHTML(html);
   
   });
 
