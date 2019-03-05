@@ -62,15 +62,14 @@ var marvel = api.createClient({
 
 // Marvel Characters data
 let characters = [{
-  "name": "Iron Man",
-  
-},
-{
-  "name": "Captain America"
-}
+    "name": "Iron Man",
+    "team": "Avengers"
+  },
+  {
+    "name": "Captain America",
+    "team": "Avengers"
+  }
 ];
-
-console.log(characters);
 
 
 // Creators
