@@ -264,13 +264,13 @@ app.get('/spider-man', function(request, response) {
   response.sendFile(__dirname + '/spider-man.json');
 });
 
-// app.get('/creators', function(request, response) {
-//   response.sendFile(__dirname + '/creators.json');
-// });
-
-app.get('/stan-lee', function(request, response) {
-  response.sendFile(__dirname + '/stan-lee.json');
+app.get('/creators', function(request, response) {
+  response.sendFile(__dirname + '/creators.json');
 });
+
+// app.get('/stan-lee', function(request, response) {
+//   response.sendFile(__dirname + '/stan-lee.json');
+// });
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
