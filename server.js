@@ -32,17 +32,20 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 //------------------------- API CALLS -------------------------//
 //-------------------------------------------------------------//
-
 app.get('/characters', function (request, response) {
   marvel.characters.findAll(10)
     .then((data) => {
-    
+    characters10.push(data.data);
     response.send(data.data);
     
-    // write to a file 
-    var fs = require("fs");
-    var characters10 = data.data;
+    }, function(err) {
+      console.error(err);
+    });    
+});
 
+// write to a file 
+    var fs = require("fs");
+    var characters10 = [];
     fs.writeFile("./charaters.json", JSON.stringify(characters10), (err) => {
         if (err) {
             console.error(err);
@@ -50,11 +53,6 @@ app.get('/characters', function (request, response) {
         };
         console.log("File has been created");
     });
-    
-    }, function(err) {
-      console.error(err);
-    });    
-});
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
