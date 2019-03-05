@@ -42,7 +42,22 @@ document.addEventListener("DOMContentLoaded", () => {
       labels: arrName,
       datasets: arrStats
     };
-    var myBarChart = new Chart(ctx).Bar(creatorData, { barValueSpacing: 20 });
+    
+    
+    // var myBarChart = new Chart(ctx, {
+    //   type: 'bar',
+    //   data: creatorData,
+    //   options: {
+    //     barValueSpacing: 20,
+    //     scales: {
+    //         yAxes: [{
+    //             ticks: {
+    //                 min: 0,
+    //             }
+    //         }]
+    //     }
+    //   }
+    // });
   
   });
   
