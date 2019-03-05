@@ -1,0 +1,334 @@
+[
+  {
+    "id": 2784,
+    "firstName": "David",
+    "middleName": "",
+    "lastName": "Michelinie",
+    "suffix": "",
+    "fullName": "David Michelinie",
+    "modified": "2014-11-24T17:28:48-0500",
+    "thumbnail": {
+      "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/4bed615a9633b",
+      "extension": "jpg"
+    },
+    "resourceURI": "http://gateway.marvel.com/v1/public/creators/2784",
+    "comics": {
+      "available": 389,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/2784/comics",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6600",
+          "name": "The Amazing Spider-Man (1963) #205"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6694",
+          "name": "The Amazing Spider-Man (1963) #290"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6695",
+          "name": "The Amazing Spider-Man (1963) #291"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6696",
+          "name": "The Amazing Spider-Man (1963) #292"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6700",
+          "name": "The Amazing Spider-Man (1963) #296"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6701",
+          "name": "The Amazing Spider-Man (1963) #297"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6702",
+          "name": "The Amazing Spider-Man (1963) #298"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6703",
+          "name": "The Amazing Spider-Man (1963) #299"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6706",
+          "name": "The Amazing Spider-Man (1963) #300"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6707",
+          "name": "The Amazing Spider-Man (1963) #301"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6708",
+          "name": "The Amazing Spider-Man (1963) #302"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6709",
+          "name": "The Amazing Spider-Man (1963) #303"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6710",
+          "name": "The Amazing Spider-Man (1963) #304"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6711",
+          "name": "The Amazing Spider-Man (1963) #305"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6712",
+          "name": "The Amazing Spider-Man (1963) #306"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6713",
+          "name": "The Amazing Spider-Man (1963) #307"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6714",
+          "name": "The Amazing Spider-Man (1963) #308"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6715",
+          "name": "The Amazing Spider-Man (1963) #309"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6717",
+          "name": "The Amazing Spider-Man (1963) #310"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6718",
+          "name": "The Amazing Spider-Man (1963) #311"
+        }
+      ],
+      "returned": 20
+    },
+    "series": {
+      "available": 119,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/2784/series",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2984",
+          "name": "Amazing Spider-Man Annual (1964 - 2018)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/25780",
+          "name": "AMAZING SPIDER-MAN BY DAVID MICHELINIE & TODD MCFARLANE OMNIBUS HC (2018)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18084",
+          "name": "Amazing Spider-Man Epic Collection: Cosmic Adventures (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/20692",
+          "name": "Amazing Spider-Man Epic Collection: Return of the Sinister Six (2016)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/19263",
+          "name": "Amazing Spider-Man Epic Collection: Round Robin (2015)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/5376",
+          "name": "Amazing Spider-Man Family (2008 - 2009)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/21739",
+          "name": "Amazing Spider-Man Super Special (1995)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/24323",
+          "name": "Ant-Man and the Wasp Adventures (2018)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/19282",
+          "name": "Ant-Man: Scott Lang (2015)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1991",
+          "name": "Avengers (1963 - 1996)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18286",
+          "name": "Avengers Epic Collection: Judgment Day (2014)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/157",
+          "name": "Avengers Legends Vol. 2: The Korvac Saga (2003)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/94",
+          "name": "Avengers Legends Vol. II: George Perez Book I (1999)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/10054",
+          "name": "Avengers: Hawkeye TPB (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17721",
+          "name": "Avengers: Heart of Stone (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1996",
+          "name": "Captain America (1968 - 1996)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/3629",
+          "name": "Captain America Annual (1971 - 1991)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/21816",
+          "name": "Carnage Classic (2016)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2002",
+          "name": "Daredevil (1964 - 1998)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18139",
+          "name": "DAREDEVIL BY FRANK MILLER & KLAUS JANSON OMNIBUS HC (NEW PRINTING) (2013)"
+        }
+      ],
+      "returned": 20
+    },
+    "stories": {
+      "available": 524,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/2784/stories",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/229",
+          "name": "In this new volume, Peter Parker’s worst nightmare comes true, when a mysterious foe kidnaps his new bride, Mary Jane Watson.   ",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/364",
+          "name": "After a wildly popular run on Spider-Man, artist Todd McFarlane set a record for the highest selling single comic book ever – a ",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6323",
+          "name": "ASM 378-380; Spect SM 201-203; SM 35-37; SM Unlimited 1, 2; Web of SM 101-103",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6721",
+          "name": "Holiday Special 2004; Unc X-Men 143, Am. Spider-Man 314; Marvel Team-Up 1; Incredible Hulk 378",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6811",
+          "name": "FF Annual 3; Incredible Hulk 319; Avengers 59-60, 127; FF 150; ASM Ann 21; X-Men 30",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/7184",
+          "name": "Interior #7184",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13781",
+          "name": "AMAZING SPIDER-MAN (1963) #205",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13782",
+          "name": "...In Love And War!",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13973",
+          "name": "Amazing Spider-Man (1963) #290",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13974",
+          "name": "The Big Question",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13975",
+          "name": "Amazing Spider-Man (1963) #291",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13976",
+          "name": "Dark Journey",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13977",
+          "name": "Amazing Spider-Man (1963) #292",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13978",
+          "name": "Growing Pains!",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13985",
+          "name": "Amazing Spider-Man (1963) #296",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13987",
+          "name": "Amazing Spider-Man (1963) #297",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13988",
+          "name": "I'll Take Manhattan!",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13990",
+          "name": "Chance Encounter",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13991",
+          "name": "Amazing Spider-Man (1963) #299",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/13992",
+          "name": "Survival of the Hittist",
+          "type": "interiorStory"
+        }
+      ],
+      "returned": 20
+    },
+    "events": {
+      "available": 6,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/2784/events",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/116",
+          "name": "Acts of Vengeance!"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/231",
+          "name": "Armor Wars"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/233",
+          "name": "Atlantis Attacks"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/246",
+          "name": "Evolutionary War"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/252",
+          "name": "Inferno"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/151",
+          "name": "Maximum Carnage"
+        }
+      ],
+      "returned": 6
+    },
+    "urls": [
+      {
+        "type": "detail",
+        "url": "http://marvel.com/comics/creators/2784/david_michelinie?utm_campaign=apiRef&utm_source=6f837e91ec6b530eacad380b45a8d6e5"
+      }
+    ]
+  }
+]

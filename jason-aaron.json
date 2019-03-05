@@ -1,0 +1,350 @@
+[
+  {
+    "id": 11463,
+    "firstName": "Jason",
+    "middleName": "",
+    "lastName": "Aaron",
+    "suffix": "",
+    "fullName": "Jason Aaron",
+    "modified": "2016-09-09T11:44:04-0400",
+    "thumbnail": {
+      "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/90/51080cb6bf2ad",
+      "extension": "jpg"
+    },
+    "resourceURI": "http://gateway.marvel.com/v1/public/creators/11463",
+    "comics": {
+      "available": 636,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/11463/comics",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/45762",
+          "name": "A+X Vol. 1: = Awesome (Trade Paperback)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/43498",
+          "name": "A+X (2012) #3"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/55094",
+          "name": "A-Force Presents Vol. 2 (Trade Paperback)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/55095",
+          "name": "A-Force Presents Vol. 3 (Trade Paperback)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/55093",
+          "name": "A-Force Presents Vol. 1 (Trade Paperback)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/48019",
+          "name": "Amazing X-Men (2013) #1"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/49341",
+          "name": "Amazing X-Men (2013) #1 (Blank Cover Variant)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/49335",
+          "name": "Amazing X-Men (2013) #1 (Young Variant)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/49337",
+          "name": "Amazing X-Men (2013) #1 (Mcguinness Wraparound Sketch Variant)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/49338",
+          "name": "Amazing X-Men (2013) #1 (Manara Variant)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/49339",
+          "name": "Amazing X-Men (2013) #1 (Moore Deadpool Variant)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/49340",
+          "name": "Amazing X-Men (2013) #1 (Nowlan Variant)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/48020",
+          "name": "Amazing X-Men (2013) #2"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/49866",
+          "name": "Amazing X-Men (2013) #2 (Keown Variant)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/48021",
+          "name": "Amazing X-Men (2013) #3"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/48023",
+          "name": "Amazing X-Men (2013) #5"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/48024",
+          "name": "Amazing X-Men (2013) #6"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/23237",
+          "name": "American Eagle: Just a Little Old-Fashioned Justice (2008) #1"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/31211",
+          "name": "Astonishing Spider-Man/Wolverine (2010) #1 (FOILOGRAM VARIANT)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/31210",
+          "name": "Astonishing Spider-Man/Wolverine (2010) #1"
+        }
+      ],
+      "returned": 20
+    },
+    "series": {
+      "available": 196,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/11463/series",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/16450",
+          "name": "A+X (2012 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17271",
+          "name": "A+X Vol. 1: = Awesome (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/20359",
+          "name": "A-Force Presents Vol. 1 (2015)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/20360",
+          "name": "A-Force Presents Vol. 2 (2015)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/20361",
+          "name": "A-Force Presents Vol. 3 (2015)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18142",
+          "name": "Amazing X-Men (2013 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18128",
+          "name": "AMAZING X-MEN VOL. 1: THE QUEST FOR NIGHTCRAWLER TPB (2014)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/6664",
+          "name": "American Eagle: Just a Little Old-Fashioned Justice (2008)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/11110",
+          "name": "Astonishing Spider-Man/Wolverine (2010 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/9792",
+          "name": "Astonishing Spider-Man/Wolverine (2010 - 2011)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/24229",
+          "name": "Avengers (2018 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/24429",
+          "name": "AVENGERS BY JASON AARON VOL. 1: THE FINAL HOST TPB (2018)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/26137",
+          "name": "AVENGERS BY JASON AARON VOL. 1: THE FINAL HOST TPB MCGUINNESS COVER (2018)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/24430",
+          "name": "Avengers By Jason Aaron Vol. 2: World Tour (2019)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/9181",
+          "name": "Avengers Vs. Atlas (2010)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/15305",
+          "name": "Avengers Vs. X-Men (2012)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17316",
+          "name": "Avengers Vs. X-Men Companion (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/16230",
+          "name": "Avengers Vs. X-Men: Versus (2011 - 2012)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/16229",
+          "name": "Avengers Vs. X-Men: Versus (2011 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/9414",
+          "name": "Avengers/Uncanny X-Men: Utopia (2010)"
+        }
+      ],
+      "returned": 20
+    },
+    "stories": {
+      "available": 752,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/11463/stories",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/28736",
+          "name": "A Good Man",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/32907",
+          "name": "Man In The Pit 1 of 1",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/44267",
+          "name": "Wolverine (2003) #62",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/44268",
+          "name": "Get Mystique 1 of 4",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/44313",
+          "name": "Heaven Bound, Hell to Pay 1 of 4",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/44616",
+          "name": "Wolverine (2003) #63",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/44617",
+          "name": "Get Mystique 2 of 4",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/44669",
+          "name": "Heaven Bound, Hell to Pay 2 of 4",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/45273",
+          "name": "Wolverine (2003) #64",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/45274",
+          "name": "Get Mystique 3 of 4",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/45493",
+          "name": "3 of 4 Hell Bent and Heaven Bound",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/46034",
+          "name": "Wolverine 56-61",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/46786",
+          "name": "Wolverine (2003) #65",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/46787",
+          "name": "Get Mystique 4 of 4",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/46844",
+          "name": "4 of 4 Hell Bent and Heaven Bound",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/47152",
+          "name": "1 of 2 God Don't Live on Cell Block D",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/47237",
+          "name": "1 of 1",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/47434",
+          "name": "1 of 3 - See Wakanda and Die",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/47471",
+          "name": "2 of 2 God Don't Live on Cell Block D",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/47740",
+          "name": "2 of 3 - See Wakanda and Die",
+          "type": "interiorStory"
+        }
+      ],
+      "returned": 20
+    },
+    "events": {
+      "available": 10,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/11463/events",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/310",
+          "name": "Avengers VS X-Men"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/318",
+          "name": "Dark Reign"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/319",
+          "name": "Original Sin"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/269",
+          "name": "Secret Invasion"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/323",
+          "name": "Secret Wars (2015)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/309",
+          "name": "Shattered Heroes"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/327",
+          "name": "Star Wars"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/316",
+          "name": "X-Men: Battle of the Atom"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/308",
+          "name": "X-Men: Regenesis"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/306",
+          "name": "X-Men: Schism"
+        }
+      ],
+      "returned": 10
+    },
+    "urls": [
+      {
+        "type": "detail",
+        "url": "http://marvel.com/comics/creators/11463/jason_aaron?utm_campaign=apiRef&utm_source=6f837e91ec6b530eacad380b45a8d6e5"
+      }
+    ]
+  }
+]

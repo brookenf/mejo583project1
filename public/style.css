@@ -35,41 +35,8 @@ p {
   max-width: 600px;
 }
 
-form {
-  margin-bottom: 25px;
-  padding: 15px;
-  background-color: cyan;
-  display: inline-block;
-  width: 100%;
-  max-width: 340px;
-  border-radius: 3px;
-}
-
-input {
-  display: block;
-  margin-bottom: 10px;
-  padding: 5px;
-  width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-  font-size: 16px;
-}
-
-button {
-  font-size: 16px;
-  border-radius: 3px;
-  background-color: lightgrey;
-  border: 1px solid grey;
-  box-shadow: 2px 2px teal;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: yellow;
-}
-
-button:active {
-  box-shadow: none;
+a {
+  text-decoration: none;
 }
 
 li {
@@ -82,12 +49,14 @@ canvas {
 
 .panel{
   width: 100%;
-  height: 120vh;
+  height: 100vh;
+  margin-bottom: 100vh;
 }
 
-.panel.charts{
-  margin-bottom: 120vh;
+.characters{
+  overflow-x: scroll;
 }
+
 
 
 .chart-container {
@@ -101,9 +70,46 @@ canvas {
 
 #marvel-characters{
   display: grid;
-  grid-gap: 1rem;
   grid-template-columns: repeat(5, 20%);
 }
+
+.spider-man {
+  background-color: #DF1F2D;
+  color: #fff;
+  background-image: url('http://www.stickpng.com/assets/images/580b57fbd9996e24bc43bc75.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.spider-man a{
+  display: inline-block;
+  color: inherit;
+  transition: border-bottom 0.1s;
+}
+
+.spider-man a:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #447BBE;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out; 
+  transform-origin:  0% 50%;
+}
+
+.spider-man a:hover:after {
+  transform: scaleX(1); 
+}
+
+.spidey-stats {
+  justify-content: space-around;
+  width: 90vw;
+}
+.big-num {
+  color: #447BBE;
+}
+
+
+
 
 footer {
   margin-top: 50px;
