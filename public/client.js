@@ -36,7 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
     var arrComicsStats = [];
     var arrSeriesStats = [];
     var arrStoriesStats = [];
-
+    
+    // Map over the Creator data array to grab data for table
     data.map((creator) => {
       var creatorlabel = creator.fullName;
       var comicsData = creator.comics.available;
@@ -47,7 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
       arrComicsStats.push(comicsData);
       arrSeriesStats.push(seriesData);
       arrStoriesStats.push(storiesData);
-      
     });
     
     console.log(arrName);  
@@ -61,15 +61,21 @@ document.addEventListener("DOMContentLoaded", () => {
       labels: arrName,
       datasets: [{
         label: "Comics",
-        backgroundColor: "blue",
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgba(255, 99, 132, 1)',
+        borderWidth: 1,
         data: arrComicsStats
       }, {
         label: "Series",
-        backgroundColor: "red",
+        backgroundColor: 'rgba(255, 206, 86, 0.2)',
+        borderColor: 'rgba(255, 206, 86, 1)',
+        borderWidth: 1,
         data: arrSeriesStats
       }, {
         label: "Stories",
-        backgroundColor: "green",
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 1,
         data: arrStoriesStats
       }]
     };
