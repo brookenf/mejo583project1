@@ -99,8 +99,14 @@ canvas#barChart {
   width: 90vw;
   text-align: center;
 }
+
 .big-num {
   color: #447BBE;
+}
+
+.characters {
+  text-align: center;
+  padding: 5vh 0;
 }
 
 

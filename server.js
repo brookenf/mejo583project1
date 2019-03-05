@@ -39,7 +39,6 @@ var marvel = api.createClient({
   I've commented these out because I've gotten the data and pushed them into a json file which I'm pulling from (see the GET JSON part below). 
   
   I've also commented them out so they don't continuously run and use up my 3000 per day limit 
-
 */
 
 // Spider-Man data
@@ -62,20 +61,11 @@ var marvel = api.createClient({
 
 
 // Marvel Characters data
-/* 
-marvel.characters.findAll(100)
-  .then(function(res) {
-    return new Promise(function(resolve, reject) { 
-      fs.writeFile("./characters.json", JSON.stringify(res.data, null, 2), (err) => {
-        if (err) reject(err);
-        else resolve();
-        console.log('Charaters have been made');
-      });
-    });           
-  })
-  .fail(console.error)
-  .done();
-*/
+let characters = [{
+  
+}
+];
+
 
 // Creators
 /* 

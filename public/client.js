@@ -128,8 +128,8 @@ document.addEventListener("DOMContentLoaded", () => {
     html += `<p>${data.description}</p>`;
     
     // Write a little paragrah about Spider-Man on the big screen
-    html += '<p>Since Spider-Man swung into action in August 1962, he has been a fan favorite in the Marvel Comic Universe.'; 
-      html += 'He has been portrayed by three separate actors: ';
+    html += '<p>Since Spider-Man swung into action in August 1962, he has been a fan favorite in the Marvel Comic Universe. '; 
+      html += 'He has been portrayed on the silver screen by three separate actors: ';
       html += '<a href="https://www.imdb.com/name/nm0001497/" target="_blank">Tobey Maguire</a>, ';
       html += '<a href="https://www.imdb.com/name/nm0001497/" target="_blank">Andrew Garfield</a> and most recently, '; 
       html += '<a href="https://www.imdb.com/name/nm0001497/" target="_blank">Tom Holland.</a>';
