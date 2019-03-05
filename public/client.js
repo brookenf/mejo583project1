@@ -113,6 +113,8 @@ document.addEventListener("DOMContentLoaded", () => {
     console.group('%cResponse from /characters', 'color: #4B9CD3; font-size: large');
     console.log(data);
     console.groupEnd();  
+    
+    for(var i = 0; i < data.length; i ++) {
   
   });
 

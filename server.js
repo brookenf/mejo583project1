@@ -36,7 +36,7 @@ var marvel = api.createClient({
 app.get('/characters', function (request, response) {
   marvel.characters.findAll()
     .then((data) => {
-      response.send(data);
+      response.send(data.data);
     }, function(err) {
       console.error(err);
     });    
