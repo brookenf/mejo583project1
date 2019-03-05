@@ -150,6 +150,57 @@ marvel.characters.findAll(100)
     .fail(console.error)
     .done();
 */
+
+/*
+  marvel.creators.findByName('Larry', '', 'Lieber')
+    .then(function(res) {
+
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./larry-lieber.json", JSON.stringify(res.data, null, 2), (err) => { 
+          if (err) reject (err);
+          else resolve();
+          console.log('Larry Lieber JSON has been made');      
+        });
+      });
+
+    })
+    .fail(console.error)
+    .done();
+*/
+
+/*
+  marvel.creators.findByName('Joe', '', 'Simon')
+    .then(function(res) {
+
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./joe-simon.json", JSON.stringify(res.data, null, 2), (err) => { 
+          if (err) reject (err);
+          else resolve();
+          console.log('Joe Simon JSON has been made');      
+        });
+      });
+
+    })
+    .fail(console.error)
+    .done();
+*/
+
+/*
+  marvel.creators.findByName('David', '', 'Michelinie')
+    .then(function(res) {
+
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./david-michelinie.json", JSON.stringify(res.data, null, 2), (err) => { 
+          if (err) reject (err);
+          else resolve();
+          console.log('David Michelinie JSON has been made');      
+        });
+      });
+
+    })
+    .fail(console.error)
+    .done();
+*/
   
 
 //-------------------------------------------------------------//
