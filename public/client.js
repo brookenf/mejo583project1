@@ -135,6 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
      
   });
   
+  // Spider-Man
   fetch('/spider-man').then(resp => resp.json()).then((data) => {
     console.group('%cResponse from /spider-man', 'color: #4B9CD3; font-size: large');
     console.log(data);
@@ -142,9 +143,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   });
-  
-    fetch('/creators').then(resp => resp.json()).then((data) => {
-    console.group('%cResponse from /creators', 'color: #4B9CD3; font-size: large');
+    
+  // Stan Lee 
+  fetch('/stan-lee').then(resp => resp.json()).then((data) => {
+    console.group('%cResponse from /stan-lee', 'color: #4B9CD3; font-size: large');
     console.log(data);
     console.groupEnd();  
   

@@ -44,20 +44,20 @@ var marvel = api.createClient({
 
 /*
 
-marvel.characters.findByName('spider-man')
-  .then(function(res) {
-    console.log('Found character ID', res.data[0].id);
-    // return marvel.characters.comics(res.data[0].id);
-    return new Promise(function(resolve, reject) { 
-      fs.writeFile("./spider-man.json", JSON.stringify(res.data[0], null, 2), (err) => {
-        if (err) reject(err);
-        else resolve();
-        console.log('Spidey has been made');
-      });
-    });           
-  })
-  .fail(console.error)
-  .done(); 
+  marvel.characters.findByName('spider-man')
+    .then(function(res) {
+      console.log('Found character ID', res.data[0].id);
+      // return marvel.characters.comics(res.data[0].id);
+      return new Promise(function(resolve, reject) { 
+        fs.writeFile("./spider-man.json", JSON.stringify(res.data[0], null, 2), (err) => {
+          if (err) reject(err);
+          else resolve();
+          console.log('Spidey has been made');
+        });
+      });           
+    })
+    .fail(console.error)
+    .done(); 
 
 */
 
@@ -81,23 +81,42 @@ marvel.characters.findAll(100)
 
 /* 
 
-marvel.creators.findByName('Stan', '', 'Lee')
-  .then(function(res) {
-    console.log(res.data);
-  
-    return new Promise(function(resolve, reject) {
-      fs.writeFile("./stan-lee.json", JSON.stringify(res.data, null, 2), (err) => { 
-        if (err) reject (err);
-        else resolve();
-        console.log('Stan Lee JSON has been made');      
+  marvel.creators.findByName('Stan', '', 'Lee')
+    .then(function(res) {
+      console.log(res.data);
+
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./stan-lee.json", JSON.stringify(res.data, null, 2), (err) => { 
+          if (err) reject (err);
+          else resolve();
+          console.log('Stan Lee JSON has been made');      
+        });
       });
-    });
-  
-  })
-  .fail(console.error)
-  .done();
+
+    })
+    .fail(console.error)
+    .done();
   
 */
+
+
+/*
+  marvel.creators.findByName('Jason', '', 'Aaron')
+    .then(function(res) {
+
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./jason-aaron.json", JSON.stringify(res.data, null, 2), (err) => { 
+          if (err) reject (err);
+          else resolve();
+          console.log('Jason Aaron JSON has been made');      
+        });
+      });
+
+    })
+    .fail(console.error)
+    .done();
+*/
+  
 
 //-------------------------------------------------------------//
 //------------------------- Get JSON  -------------------------//
@@ -113,8 +132,12 @@ app.get('/spider-man', function(request, response) {
   response.sendFile(__dirname + '/spider-man.json');
 });
 
-app.get('/creators', function(request, response) {
-  response.sendFile(__dirname + '/creators.json');
+// app.get('/creators', function(request, response) {
+//   response.sendFile(__dirname + '/creators.json');
+// });
+
+app.get('/stan-lee', function(request, response) {
+  response.sendFile(__dirname + '/stan-lee.json');
 });
 
 // listen for requests :)
