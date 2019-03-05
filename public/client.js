@@ -140,11 +140,28 @@ document.addEventListener("DOMContentLoaded", () => {
     console.group('%cResponse from /spider-man', 'color: #4B9CD3; font-size: large');
     console.log(data);
     console.groupEnd();  
+    
+    // Define Variables
+    var html = '';
+    var spideyData = document.getElementById('spidey-data');
+    
+    // Get Spider-Man's photo
+    html += `<img src="${data.thumbnail.path}/standard_xlarge.${data.thumbnail.extension}" alt="${data.name}"/>`;
+    
+    // Get Spider-Man's description
+    html += `<p>${data.description}</p>`;
+    
+    // Get series, events, episode data
+    html += '<p>Since Spider-Man swung into action in August 1962, he has been a fan favorite in the Marvel Comic Universe. He has been portrayed by three separate actors: <a href="https://www.imdb.com/name/nm0001497/" target="_blank">Tobey Maguire,</a> <a href="" target="_blank"></a></p>'
+    
+    
+    
+    spideyData.innerHTML = html;
   
   
   });
     
-  // Stan Lee 
+  // Creators data
   fetch('/creators').then(resp => resp.json()).then((data) => {
     console.group('%cResponse from /creators', 'color: #4B9CD3; font-size: large');
     console.log(data);

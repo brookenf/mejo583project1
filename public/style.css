@@ -107,6 +107,10 @@ canvas {
   grid-template-columns: repeat(5, 20%);
 }
 
+#spidey-data{
+
+}
+
 footer {
   margin-top: 50px;
   padding-top: 25px;
