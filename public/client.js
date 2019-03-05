@@ -114,7 +114,18 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(data);
     console.groupEnd();  
     
+    var html = '';
+    var char = document.getElementById('marvel-characters');
+    
+    html += '<ul>';
+        
     for(var i = 0; i < data.length; i ++) {
+      html += `<li>${data[i].name}</li>`;
+    }
+    
+    html += '</ul>';
+    
+    char.innerHTML(html);
   
   });
 
