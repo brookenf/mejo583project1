@@ -18,48 +18,34 @@ document.addEventListener("DOMContentLoaded", () => {
     console.groupEnd();  
     
     
-    var names = {}, arr = [];
+    var arrName = [];
+    var arrStats = [];
 
     data.map((creator) => {
-     var obj = {
-       "name": creator.fullName,
-       "stories": creator.stories.available,
-       "series": creator.series.available
-     }
+     var creatorlabel = creator.fullName;
+     var creatorStats = {
+       "comics": creator.comics.available,
+       "series": creator.series.available,
+       "stories": creator.stories.available
+     };
      
-     arr.push(obj);
+     arrName.push(creatorlabel);
+     arrStats.push(creatorStats);
     });
     
-    console.log(arr);
-    
-    
-    
+    console.log(arrName);  
+    console.log(arrStats);
   
     // Build the chart inside here
-   
+    var ctx = document.getElementById("barChart").getContext("2d");
+    var creatorData = {
+      labels: arrName,
+      datasets: arrStats
+    };
+    var myBarChart = new Chart(ctx).Bar(creatorData, { barValueSpacing: 20 });
   
   });
   
-
-  // create an object with world population data
-//   const data = {
-//     'Africa': 1216,
-//     'Asia': 4436,
-//     'Europe': 738,
-//     'North America': 579,
-//     'Oceania': 39.9,
-//     'South America': 422
-//   };
-
-//   // create an array of continents to use as labels for the charts
-//   const continents = Object.keys(data);
-
-//   // create an array of populations to use as data values by looping
-//   // through the continents and adding each new value to the array
-//   const populations = [];
-//   continents.forEach((continent) => {
-//     populations.push(data[continent]);
-//   });
 
   // Scroll Magic
   var controller = new ScrollMagic.Controller({
