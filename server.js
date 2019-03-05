@@ -3,7 +3,9 @@
 
 // init project
 var express = require('express');
+var fs = require("fs");
 var app = express();
+var characters10;
 
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
@@ -32,28 +34,22 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 //------------------------- API CALLS -------------------------//
 //-------------------------------------------------------------//
-var fs = require("fs");
-var characters10 = [];
-
-app.get('/characters', function (request, response) {
-  marvel.characters.findAll(10)
-    .then((data) => {
-    characters10.push(data.data);
-    response.send(data.data);
-    
-    }, function(err) {
-      console.error(err);
-    });    
+marvel.characters.findAll(function(err, results) {
+  if (err) {
+    return console.error(err);
+  }
+  
+  console.log(results);
+  //write to a file 
+  fs.writeFile("./characters.json", JSON.stringify(results, null, 2), (err) => {
+      if (err) {
+          console.error(err);
+          return;
+      };
+      console.log("File has been created");
+  });
 });
 
-// write to a file 
-// fs.writeFile("./characters.json", JSON.stringify(characters10), (err) => {
-//     if (err) {
-//         console.error(err);
-//         return;
-//     };
-//     console.log("File has been created");
-// });
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
