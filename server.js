@@ -116,6 +116,40 @@ marvel.characters.findAll(100)
     .fail(console.error)
     .done();
 */
+
+/*
+  marvel.creators.findByName('Steve', '', 'Ditko')
+    .then(function(res) {
+
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./steve-ditko.json", JSON.stringify(res.data, null, 2), (err) => { 
+          if (err) reject (err);
+          else resolve();
+          console.log('Steve Ditko JSON has been made');      
+        });
+      });
+
+    })
+    .fail(console.error)
+    .done();
+*/
+
+/*
+  marvel.creators.findByName('Jack', '', 'Kirby')
+    .then(function(res) {
+
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./jack-kirby.json", JSON.stringify(res.data, null, 2), (err) => { 
+          if (err) reject (err);
+          else resolve();
+          console.log('Jack Kirby JSON has been made');      
+        });
+      });
+
+    })
+    .fail(console.error)
+    .done();
+*/
   
 
 //-------------------------------------------------------------//
