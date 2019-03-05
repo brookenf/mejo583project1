@@ -144,9 +144,20 @@ document.addEventListener("DOMContentLoaded", () => {
     // Define Variables
     var html = '';
     var spideyData = document.getElementById('spidey-data');
+    var urls = data.urls;
     
+    urls.forEach((url) => {
+      if(url.type === "wiki") {
+       html += `<a href="${url.url}" target="_blank">`;
+        
+        //G
+        html += `<img src="${data.thumbnail.path}/standard_xlarge.${data.thumbnail.extension}" alt="${data.name}"/>`;
+       html += `</a>`;
+      }
+    
+    });
     // Get Spider-Man's photo
-    html += `<img src="${data.thumbnail.path}/standard_xlarge.${data.thumbnail.extension}" alt="${data.name}"/>`;
+    // html += `<img src="${data.thumbnail.path}/standard_xlarge.${data.thumbnail.extension}" alt="${data.name}"/>`;
     
     // Get Spider-Man's description
     html += `<p>${data.description}</p>`;
