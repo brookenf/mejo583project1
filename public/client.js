@@ -18,13 +18,22 @@ document.addEventListener("DOMContentLoaded", () => {
     console.groupEnd();  
     
     
-    var names = {}, cart = [];
+    var names = {}, arr = [];
 
     data.map((creator) => {
-      cart.push(creator.fullNames);
+     var obj = {
+       "name": creator.fullName,
+       "stories": creator.stories.available,
+       "series": creator.series.available
+     }
+     
+     arr.push(obj);
     });
     
-    console.log(cart);
+    console.log(arr);
+    
+    
+    
   
     // Build the chart inside here
    
