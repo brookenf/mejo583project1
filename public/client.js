@@ -17,10 +17,15 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(data);
     console.groupEnd();  
     
-    // build the chart inside here
-    var names = data.fullName;
-    console.log(names);
-    var data = [];
+    var names = {}, cart = [];
+    
+    data.map((creator) => {
+       
+      names
+    });
+    
+    // Build the chart inside here
+   
   
   });
   
