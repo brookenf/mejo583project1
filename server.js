@@ -35,6 +35,14 @@ var marvel = api.createClient({
 //------------------------- API CALLS -------------------------//
 //-------------------------------------------------------------//
 
+/* 
+  I've commented these out because I've gotten the data and pushed them into a json file which I'm pulling from (see the GET JSON part below). 
+  
+  I've also commented them out so they don't continuously run and use up my 3000 per day limit 
+
+*/
+
+
 // marvel.characters.findByName('spider-man')
 //   .then(function(res) {
 //     console.log('Found character ID', res.data[0].id);
@@ -68,7 +76,7 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 
 app.get('/characters', function(request, response) {
-  
+  response.sendFile(__dirname + '/characters.json');
 });
 
 // listen for requests :)

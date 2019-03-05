@@ -1,3 +1,5 @@
+/* global Chart, ScrollMagic */
+
 document.addEventListener("DOMContentLoaded", () => {
   // client-side js
   // run by the browser each time your view template is loaded
@@ -8,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // included in another file (in this case, `index.html`)
   // Note: the code will still work without this line, but without it you
   // will see an error in the editor
-  /* global Chart, ScrollMagic */
+  
 
   // create an object with world population data
   const data = {
@@ -30,31 +32,31 @@ document.addEventListener("DOMContentLoaded", () => {
     populations.push(data[continent]);
   });
 
-  // initialize a chart and put it in the 'barChart' div
-  const bar = document.getElementById('barChart').getContext('2d');
-  const barChart = new Chart(bar, {
-    type: 'bar', // make it a bar chart
-    data: {
-      labels: continents, // use the array of continents as labels
-      datasets: [{
-        label: 'Population (in millions)',
-        data: populations, // use the array of populations to draw bars
-        backgroundColor: 'rgba(255, 99, 132, 0.2)', // make the bars translucent red
-        borderColor: 'rgba(255, 99, 132, 1)', // make the borders of the bars opaque red
-        borderWidth: 1 // set the border width to 1 pixel
-      }]
-    },
-    options: {
-      // the y-axis should start at 0
-      scales: {
-        yAxes: [{
-          ticks: {
-            beginAtZero:true
-          }
-        }]
-      },
-    }
-  });
+  // // initialize a chart and put it in the 'barChart' div
+  // const bar = document.getElementById('barChart').getContext('2d');
+  // const barChart = new Chart(bar, {
+  //   type: 'bar', // make it a bar chart
+  //   data: {
+  //     labels: continents, // use the array of continents as labels
+  //     datasets: [{
+  //       label: 'Population (in millions)',
+  //       data: populations, // use the array of populations to draw bars
+  //       backgroundColor: 'rgba(255, 99, 132, 0.2)', // make the bars translucent red
+  //       borderColor: 'rgba(255, 99, 132, 1)', // make the borders of the bars opaque red
+  //       borderWidth: 1 // set the border width to 1 pixel
+  //     }]
+  //   },
+  //   options: {
+  //     // the y-axis should start at 0
+  //     scales: {
+  //       yAxes: [{
+  //         ticks: {
+  //           beginAtZero:true
+  //         }
+  //       }]
+  //     },
+  //   }
+  // });
 
   // initialize a chart and put it in the 'pieChart' div
   const pie = document.getElementById('pieChart').getContext('2d');
@@ -109,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   // Marvel API data
-  fetch('../characters.json').then(resp => resp.json()).then((data) => {
+  fetch('/characters').then(resp => resp.json()).then((data) => {
     console.group('%cResponse from /characters', 'color: #4B9CD3; font-size: large');
     console.log(data);
     console.groupEnd();  
