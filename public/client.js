@@ -107,15 +107,12 @@ document.addEventListener("DOMContentLoaded", () => {
       .addTo(controller);
   }
   
-  var jsonData = [];
   
   // Marvel API data
   fetch('/characters').then(resp => resp.json()).then((data) => {
     console.group('%cResponse from /characters', 'color: #4B9CD3; font-size: large');
     console.log(data);
     console.groupEnd();  
-    
-    jsonData.push(JSON.stringify(data));
     
     var html = '';
     var char = document.getElementById('marvel-characters');
@@ -137,7 +134,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
   });
   
-  console.log(jsonData);
 
   // end of Document.addEventlistener
 });
