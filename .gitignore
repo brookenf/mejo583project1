@@ -1,1 +1,2 @@
-git s.env
+.gitignore
+.env
