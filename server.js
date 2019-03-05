@@ -34,37 +34,34 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 //------------------------- API CALLS -------------------------//
 //-------------------------------------------------------------//
-// marvel.characters.findAll(function(err, results) {
-//   if (err) {
-//     return console.error(err);
-//   }
-  
-//   console.log(results);
-//   //write to a file 
-//   fs.writeFile("./characters.json", JSON.stringify(results, null, 2), (err) => {
-//       if (err) {
-//           console.error(err);
-//           return;
-//       };
-//       console.log("File has been created");
-//   });
-// });
 
-marvel.characters.findByName('spider-man')
-  .then(function(res) {
-    console.log('Found character ID', res.data[0].id);
-    return marvel.characters.comics(res.data[0].id);
-    fs.writeFile("./spider-man.json", JSON.stringify(res.data[0].id, null, 2), (err) => {
-      if (err){
-        console.error(err);
-        return;
-      }; 
-      console.log('Spidey file created');
-    });
-                 
-  })
-  .fail(console.error)
-  .done();
+// marvel.characters.findByName('spider-man')
+//   .then(function(res) {
+//     console.log('Found character ID', res.data[0].id);
+//     // return marvel.characters.comics(res.data[0].id);
+//     return new Promise(function(resolve, reject) { 
+//       fs.writeFile("./spider-man.json", JSON.stringify(res.data[0], null, 2), (err) => {
+//         if (err) reject(err);
+//         else resolve();
+//         console.log('Spidey has been made');
+//       });
+//     });           
+//   })
+//   .fail(console.error)
+//   .done();
+
+// marvel.characters.findAll(100)
+//   .then(function(res) {
+//     return new Promise(function(resolve, reject) { 
+//       fs.writeFile("./characters.json", JSON.stringify(res.data, null, 2), (err) => {
+//         if (err) reject(err);
+//         else resolve();
+//         console.log('Charaters have been made');
+//       });
+//     });           
+//   })
+//   .fail(console.error)
+//   .done();
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
