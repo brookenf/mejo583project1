@@ -19,29 +19,48 @@ document.addEventListener("DOMContentLoaded", () => {
     
     
     var arrName = [];
-    var arrStats = [];
+    var arrComicsStats = [];
+    var arrSeriesStats = [];
+    var arrStoriesStats = [];
 
     data.map((creator) => {
-     var creatorlabel = creator.fullName;
-     var creatorStats = {
-       label: ",
-       backgroundColor: "red",
-       data: creator.comics.available
-     }
-     
-     arrName.push(creatorlabel);
-     arrStats.push(creatorStats);
+      var creatorlabel = creator.fullName;
+      var comicsData = creator.comics.available;
+      var seriesData = creator.series.available;
+      var storiesData = creator.stories.available;
+
+      arrName.push(creatorlabel);
+      arrComicsStats.push(comicsData);
+      arrSeriesStats.push(seriesData);
+      arrStoriesStats.push(storiesData);
+      
     });
     
     console.log(arrName);  
-    console.log(arrStats);
+    console.log(arrComicsStats);
+    console.log(arrSeriesStats);
+    console.log(arrStoriesStats);
   
     // Build the chart inside here
-    var ctx = document.getElementById("barChart").getContext("2d");
+    /*var ctx = document.getElementById("barChart").getContext("2d");
     var creatorData = {
       labels: arrName,
-      datasets: arrStats
+      datasets: [{
+        label: "Comics",
+        backgroundColor: "blue",
+        data: arrComicStats
+      }, {
+        label: "Series",
+        backgroundColor: "red",
+        data: [4, 3, 5]
+      }, {
+        label: "Green",
+        backgroundColor: "green",
+        data: [7, 2, 6]
+      }]
     };
+    
+    */
     
     
     // var myBarChart = new Chart(ctx, {
