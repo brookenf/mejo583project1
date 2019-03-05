@@ -98,7 +98,20 @@ marvel.characters.findAll(100)
 //       fs.writeFile("./creators2.json", JSON.stringify(res.data, null, 2), (err) => {
 //         if (err) reject(err);
 //         else resolve();
-//         console.log('Creators have been pushed into JSON file');
+//         console.log('Creators 2 have been pushed into JSON file');
+//       });
+//     });           
+//   })
+//   .fail(console.error)
+//   .done();
+
+// marvel.creators.findAll(200, 5)
+//   .then(function(res) {
+//     return new Promise(function(resolve, reject) { 
+//       fs.writeFile("./creators3.json", JSON.stringify(res.data, null, 2), (err) => {
+//         if (err) reject(err);
+//         else resolve();
+//         console.log('Creators 3 have been pushed into JSON file');
 //       });
 //     });           
 //   })
