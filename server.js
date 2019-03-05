@@ -34,7 +34,7 @@ var marvel = api.createClient({
 //-------------------------------------------------------------//
 
 app.get('/characters', function (request, response) {
-  marvel.characters.findAll(100)
+  marvel.characters.findAll(10)
     .then((data) => {
       response.send(data.data);
     }, function(err) {
