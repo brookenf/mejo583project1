@@ -121,7 +121,10 @@ document.addEventListener("DOMContentLoaded", () => {
     for(var i = 0; i < data.length; i ++) {
       html += '<div class="flex-column character__card">';
         html += `<h1>${data[i].name}</h1>`;
-        // html += `<img src="${data[i].thumbnail.path}" alt="${data[i].name}">`;
+      
+        // Get the images
+        var ext = data[i].thumbnail.extension;
+        html += `<img src="${data[i].thumbnail.path}/standard_small.ext" alt="${data[i].name}">`;
         html += `<p>${data[i].description}</p>`;
       html += '</div>'
     }
