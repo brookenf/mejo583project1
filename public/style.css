@@ -57,15 +57,9 @@ canvas {
   overflow-x: scroll;
 }
 
-
-
-.chart-container {
-  position: relative;
-  height: 40%;
-  width: 100%;
-  max-width: 600px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+canvas#barChart {
+  width: 70vw;
+  height: 50vh; 
 }
 
 #marvel-characters{

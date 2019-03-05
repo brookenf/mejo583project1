@@ -11,84 +11,78 @@ document.addEventListener("DOMContentLoaded", () => {
   // Note: the code will still work without this line, but without it you
   // will see an error in the editor
   
+  // Creators data
+  fetch('/creators').then(resp => resp.json()).then((data) => {
+    console.group('%cResponse from /creators', 'color: #4B9CD3; font-size: large');
+    console.log(data);
+    console.groupEnd();  
+    
+    
+    var arrName = [];
+    var arrComicsStats = [];
+    var arrSeriesStats = [];
+    var arrStoriesStats = [];
 
-  // create an object with world population data
-  const data = {
-    'Africa': 1216,
-    'Asia': 4436,
-    'Europe': 738,
-    'North America': 579,
-    'Oceania': 39.9,
-    'South America': 422
-  };
+    data.map((creator) => {
+      var creatorlabel = creator.fullName;
+      var comicsData = creator.comics.available;
+      var seriesData = creator.series.available;
+      var storiesData = creator.stories.available;
 
-  // create an array of continents to use as labels for the charts
-  const continents = Object.keys(data);
-
-  // create an array of populations to use as data values by looping
-  // through the continents and adding each new value to the array
-  const populations = [];
-  continents.forEach((continent) => {
-    populations.push(data[continent]);
-  });
-
-  // // initialize a chart and put it in the 'barChart' div
-  // const bar = document.getElementById('barChart').getContext('2d');
-  // const barChart = new Chart(bar, {
-  //   type: 'bar', // make it a bar chart
-  //   data: {
-  //     labels: continents, // use the array of continents as labels
-  //     datasets: [{
-  //       label: 'Population (in millions)',
-  //       data: populations, // use the array of populations to draw bars
-  //       backgroundColor: 'rgba(255, 99, 132, 0.2)', // make the bars translucent red
-  //       borderColor: 'rgba(255, 99, 132, 1)', // make the borders of the bars opaque red
-  //       borderWidth: 1 // set the border width to 1 pixel
-  //     }]
-  //   },
-  //   options: {
-  //     // the y-axis should start at 0
-  //     scales: {
-  //       yAxes: [{
-  //         ticks: {
-  //           beginAtZero:true
-  //         }
-  //       }]
-  //     },
-  //   }
-  // });
-
-  // initialize a chart and put it in the 'pieChart' div
-  const pie = document.getElementById('pieChart').getContext('2d');
-  const pieChart = new Chart(pie, {
-    type: 'pie', // make it a pie chart
-    data: {
-      labels: continents, // use the array of continents to label each 
+      arrName.push(creatorlabel);
+      arrComicsStats.push(comicsData);
+      arrSeriesStats.push(seriesData);
+      arrStoriesStats.push(storiesData);
+      
+    });
+    
+    console.log(arrName);  
+    console.log(arrComicsStats);
+    console.log(arrSeriesStats);
+    console.log(arrStoriesStats);
+  
+    // Build the chart inside here
+    var ctx = document.getElementById("barChart").getContext("2d");
+    var creatorData = {
+      labels: arrName,
       datasets: [{
-        data: populations, // use the array of populations to draw pie slices
-        // set each pie slice to a translucent color
-        backgroundColor: [
-          'rgba(255, 99, 132, 0.2)',
-          'rgba(54, 162, 235, 0.2)',
-          'rgba(255, 206, 86, 0.2)',
-          'rgba(75, 192, 192, 0.2)',
-          'rgba(153, 102, 255, 0.2)',
-          'rgba(255, 159, 64, 0.2)'
-        ],
-        // set the border of each pie slice to the same color as the background
-        // of the slice but opaque
-        borderColor: [
-          'rgba(255, 99, 132, 1)',
-          'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)',
-          'rgba(255, 159, 64, 1)'
-        ],
-        borderWidth: 1 // set border width to 1 pixel
+        label: "Comics",
+        backgroundColor: "blue",
+        data: arrComicsStats
+      }, {
+        label: "Series",
+        backgroundColor: "red",
+        data: arrSeriesStats
+      }, {
+        label: "Stories",
+        backgroundColor: "green",
+        data: arrStoriesStats
       }]
-    }
+    };
+    console.log(creatorData);  
+    
+    var myBarChart = new Chart(ctx, {
+      type: 'bar',
+      data: creatorData,
+      options: {
+        barValueSpacing: 10,
+        scales: {
+            xAxes: [{
+                ticks: {
+                  autoSkip: false
+                }
+            }],
+            yAxes: [{
+                ticks: {
+                    min: 0
+                }
+            }]
+        }
+      }
+    });
+  
   });
+  
 
   // Scroll Magic
   var controller = new ScrollMagic.Controller({
@@ -182,14 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   });
     
-  // Creators data
-  fetch('/creators').then(resp => resp.json()).then((data) => {
-    console.group('%cResponse from /creators', 'color: #4B9CD3; font-size: large');
-    console.log(data);
-    console.groupEnd();  
   
-  
-  });
   
 
   // end of Document.addEventlistener
