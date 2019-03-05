@@ -63,6 +63,14 @@ var marvel = api.createClient({
 //   .fail(console.error)
 //   .done();
 
+//-------------------------------------------------------------//
+//------------------------- Get JSON  -------------------------//
+//-------------------------------------------------------------//
+
+app.get('/characters', function(request, response) {
+  
+});
+
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
   console.log('Your app is listening on port ' + listener.address().port);
