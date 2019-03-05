@@ -83,11 +83,13 @@ canvas {
 .panel{
   width: 100%;
   height: 120vh;
+  margin-bottom: 100vh;
 }
 
-.panel.charts{
-  margin-bottom: 120vh;
+.characters{
+  overflow-x: scroll;
 }
+
 
 
 .chart-container {
