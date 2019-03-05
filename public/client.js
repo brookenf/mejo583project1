@@ -74,8 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }],
             yAxes: [{
                 ticks: {
-                    min: 0,
-                    stepSize: 2000
+                    min: 0
                 }
             }]
         }
