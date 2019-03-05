@@ -161,8 +161,10 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Get series, events, comics data
     html += '<div class="spidey-stats flex">';
-      html += `<h2>Appeared in ${data.comics.available} comics</h2>`;
-      html += `<h2>Appeared in ${data.comics.available} comics</h2>`;
+      html += `<h2>Appeared in <br/><span class="big-num">${data.comics.available}</span> comics</h2>`;
+      html += `<h2>Appeared in <br/><span class="big-num">${data.events.available}</span> events</h2>`;
+      html += `<h2>Appeared in <br/><span class="big-num">${data.series.available}</span> series</h2>`;
+      html += `<h2>Appeared in <br/><span class="big-num">${data.stories.available}</span> stories</h2>`;
     
     html += '</div>'
     
