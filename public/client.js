@@ -42,41 +42,39 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(arrStoriesStats);
   
     // Build the chart inside here
-    /*var ctx = document.getElementById("barChart").getContext("2d");
+    var ctx = document.getElementById("barChart").getContext("2d");
     var creatorData = {
       labels: arrName,
       datasets: [{
         label: "Comics",
         backgroundColor: "blue",
-        data: arrComicStats
+        data: arrComicsStats
       }, {
         label: "Series",
         backgroundColor: "red",
-        data: [4, 3, 5]
+        data: arrSeriesStats
       }, {
-        label: "Green",
+        label: "Stories",
         backgroundColor: "green",
-        data: [7, 2, 6]
+        data: arrStoriesStats
       }]
     };
+    console.log(creatorData);  
     
-    */
-    
-    
-    // var myBarChart = new Chart(ctx, {
-    //   type: 'bar',
-    //   data: creatorData,
-    //   options: {
-    //     barValueSpacing: 20,
-    //     scales: {
-    //         yAxes: [{
-    //             ticks: {
-    //                 min: 0,
-    //             }
-    //         }]
-    //     }
-    //   }
-    // });
+    var myBarChart = new Chart(ctx, {
+      type: 'bar',
+      data: creatorData,
+      options: {
+        barValueSpacing: 20,
+        scales: {
+            yAxes: [{
+                ticks: {
+                    min: 0,
+                }
+            }]
+        }
+      }
+    });
   
   });
   
