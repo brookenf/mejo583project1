@@ -79,6 +79,24 @@ marvel.characters.findAll(100)
 */
 
 
+// marvel.creators.findAll(100)
+//   .then(function(res) {
+//     return new Promise(function(resolve, reject) { 
+//       fs.writeFile("./creators.json", JSON.stringify(res.data, null, 2), (err) => {
+//         if (err) reject(err);
+//         else resolve();
+//         console.log('Creators have been pushed into JSON file');
+//       });
+//     });           
+//   })
+//   .fail(console.error)
+//   .done();
+  
+
+
+
+
+
 
 //-------------------------------------------------------------//
 //------------------------- Get JSON  -------------------------//
