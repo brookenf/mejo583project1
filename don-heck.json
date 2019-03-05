@@ -1,0 +1,313 @@
+
+  {
+    "id": 305,
+    "firstName": "Don",
+    "middleName": "",
+    "lastName": "Heck",
+    "suffix": "",
+    "fullName": "Don Heck",
+    "modified": "2013-03-11T12:27:55-0400",
+    "thumbnail": {
+      "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/00/4bc6b23923edb",
+      "extension": "jpg"
+    },
+    "resourceURI": "http://gateway.marvel.com/v1/public/creators/305",
+    "comics": {
+      "available": 516,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/305/comics",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/23280",
+          "name": "Amazing Adventures (1970) #6"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/23281",
+          "name": "Amazing Adventures (1970) #7"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/23282",
+          "name": "Amazing Adventures (1970) #8"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6876",
+          "name": "The Amazing Spider-Man (1963) #57"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6877",
+          "name": "The Amazing Spider-Man (1963) #58"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6878",
+          "name": "The Amazing Spider-Man (1963) #59"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6880",
+          "name": "The Amazing Spider-Man (1963) #60"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6881",
+          "name": "The Amazing Spider-Man (1963) #61"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6882",
+          "name": "The Amazing Spider-Man (1963) #62"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6883",
+          "name": "The Amazing Spider-Man (1963) #63"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6884",
+          "name": "The Amazing Spider-Man (1963) #64"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6886",
+          "name": "The Amazing Spider-Man (1963) #66"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6908",
+          "name": "The Amazing Spider-Man (1963) #86"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16904",
+          "name": "Amazing Spider-Man Annual (1964) #3"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/37655",
+          "name": "Ant-Man & Wasp: Small World (Trade Paperback)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16849",
+          "name": "Astonishing (1951) #50"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16863",
+          "name": "Astonishing (1951) #63"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7343",
+          "name": "Avengers (1963) #9"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6953",
+          "name": "Avengers (1963) #10"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/6964",
+          "name": "Avengers (1963) #11"
+        }
+      ],
+      "returned": 20
+    },
+    "series": {
+      "available": 194,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/305/series",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/6666",
+          "name": "Amazing Adventures (1970 - 1976)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2984",
+          "name": "Amazing Spider-Man Annual (1964 - 2018)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/13540",
+          "name": "Ant-Man & Wasp: Small World (2010 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2982",
+          "name": "Astonishing (1951 - 1957)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1991",
+          "name": "Avengers (1963 - 1996)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1988",
+          "name": "Avengers Annual (1967 - 1994)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1816",
+          "name": "Avengers Assemble Vol. 4 (2007)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2384",
+          "name": "Avengers Classic (2007 - 2008)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18181",
+          "name": "Avengers Epic Collection: Earthâ€™S Mightiest Heroes (2014)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/22379",
+          "name": "Avengers Epic Collection: Masters of Evil (2017)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/20699",
+          "name": "Avengers Epic Collection: Once An Avenger (2016)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17311",
+          "name": "Avengers Vs. Thanos (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/96",
+          "name": "Avengers: Celestial Madonna (1999)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/10054",
+          "name": "Avengers: Hawkeye TPB (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/22468",
+          "name": "Avengers: The Complete Celestial Madonna Saga (2017)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1992",
+          "name": "Avengers: Ultron Imperative (2001)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1493",
+          "name": "Avengers: Vision and the Scarlet Witch (2005)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/23765",
+          "name": "Black Goliath (1976)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/3629",
+          "name": "Captain America Annual (1971 - 1991)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2000",
+          "name": "Captain Marvel (1968 - 1979)"
+        }
+      ],
+      "returned": 20
+    },
+    "stories": {
+      "available": 676,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/305/stories",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/97",
+          "name": "The Celestial Madonna, who will conceive a being of immense cosmic power, awakens and has the Avengers facing off against three ",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/115",
+          "name": "Re-presenting the formation of the Avengers, the revival of Captain America, enemies such as the Sub-Mariner, and Kang the Conqu",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/386",
+          "name": "Interior #386",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/443",
+          "name": "Continuing the best-selling B&W collection of Marvel’s classic horror title! Is Dracula dead? Allowing his hunters to think him ",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/444",
+          "name": "Continuing the best-selling B&W collection of Marvel’s classic horror title! Is Dracula dead? Allowing his hunters to think him ",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/4810",
+          "name": "Interior #4810",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/4833",
+          "name": "Interior #4833",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/5781",
+          "name": "2 of 5 - 5XLS",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/5783",
+          "name": "3 of 5 - 5XLS",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/5787",
+          "name": "5 of 5 - 5XLS",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6509",
+          "name": "Tales of Suspense 73-99, Iron Man & Sub-Mariner 1, Iron Man 1-10",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6510",
+          "name": "Tales of Suspense 73-99, Iron Man & Sub-Mariner 1, Iron Man 1-10",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6692",
+          "name": "X-Men 32-42",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6737",
+          "name": "ASM 62-67, Annual 5 and Spectacular Spider-Man Magazine 1-2",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6933",
+          "name": "Tales of Suspense 51-65; Vol. 45",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6934",
+          "name": "Tales of Suspense 51-65; Vol. 45",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6951",
+          "name": "GS FF 4; GS Aven 1; GS Def 4; GS S-H 1, GS Inv 1; GS X-Men; GS Creatures 1",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6957",
+          "name": "X-Men 43-53, Avengers 53",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/7014",
+          "name": "Marvel Super-Heroes 12-13; Captain Marvel 1-9; VOL. 50",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/7301",
+          "name": "Tales of Suspense 66-83, Tales to Astonish 82",
+          "type": "interiorStory"
+        }
+      ],
+      "returned": 20
+    },
+    "events": {
+      "available": 1,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/305/events",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/233",
+          "name": "Atlantis Attacks"
+        }
+      ],
+      "returned": 1
+    },
+    "urls": [
+      {
+        "type": "detail",
+        "url": "http://marvel.com/comics/creators/305/don_heck?utm_campaign=apiRef&utm_source=6f837e91ec6b530eacad380b45a8d6e5"
+      }
+    ]
+  }

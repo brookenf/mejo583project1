@@ -42,8 +42,8 @@ var marvel = api.createClient({
 
 */
 
+// Spider-Man data
 /*
-
   marvel.characters.findByName('spider-man')
     .then(function(res) {
       console.log('Found character ID', res.data[0].id);
@@ -58,11 +58,11 @@ var marvel = api.createClient({
     })
     .fail(console.error)
     .done(); 
-
 */
 
-/* 
 
+// Marvel Characters data
+/* 
 marvel.characters.findAll(100)
   .then(function(res) {
     return new Promise(function(resolve, reject) { 
@@ -75,12 +75,10 @@ marvel.characters.findAll(100)
   })
   .fail(console.error)
   .done();
-  
 */
 
-
+// Creators
 /* 
-
   marvel.creators.findByName('Stan', '', 'Lee')
     .then(function(res) {
       console.log(res.data);
@@ -96,9 +94,7 @@ marvel.characters.findAll(100)
     })
     .fail(console.error)
     .done();
-  
 */
-
 
 /*
   marvel.creators.findByName('Jason', '', 'Aaron')
@@ -203,14 +199,48 @@ marvel.characters.findAll(100)
 */
 
 /*
-  marvel.creators.findByName('David', '', 'Michelinie')
+  marvel.creators.findByName('John', '', 'Byrne')
     .then(function(res) {
 
       return new Promise(function(resolve, reject) {
-        fs.writeFile("./david-michelinie.json", JSON.stringify(res.data, null, 2), (err) => { 
+        fs.writeFile("./john-byrne.json", JSON.stringify(res.data, null, 2), (err) => { 
           if (err) reject (err);
           else resolve();
-          console.log('David Michelinie JSON has been made');      
+          console.log('John Byrne JSON has been made');      
+        });
+      });
+
+    })
+    .fail(console.error)
+    .done();
+*/
+
+/*
+  marvel.creators.findByName('Don', '', 'Rico')
+    .then(function(res) {
+
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./don-rico.json", JSON.stringify(res.data, null, 2), (err) => { 
+          if (err) reject (err);
+          else resolve();
+          console.log('Don Rico JSON has been made');      
+        });
+      });
+
+    })
+    .fail(console.error)
+    .done();
+*/
+
+/*
+  marvel.creators.findByName('Don', '', 'Heck')
+    .then(function(res) {
+
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./don-heck.json", JSON.stringify(res.data, null, 2), (err) => { 
+          if (err) reject (err);
+          else resolve();
+          console.log('Don Heck JSON has been made');      
         });
       });
 

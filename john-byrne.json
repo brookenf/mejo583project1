@@ -1,0 +1,334 @@
+[
+  {
+    "id": 1827,
+    "firstName": "John",
+    "middleName": "",
+    "lastName": "Byrne",
+    "suffix": "",
+    "fullName": "John Byrne",
+    "modified": "2018-07-23T15:46:29-0400",
+    "thumbnail": {
+      "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/20/4bc37678cb299",
+      "extension": "jpg"
+    },
+    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1827",
+    "comics": {
+      "available": 509,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/1827/comics",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/29317",
+          "name": "ACTS OF VENGEANCE CROSSOVERS OMNIBUS (Hardcover)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/29318",
+          "name": "ACTS OF VENGEANCE CROSSOVERS OMNIBUS (DM Only) (Hardcover)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12637",
+          "name": "Alpha Flight (1983) #1"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12679",
+          "name": "Alpha Flight (1983) #2"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12690",
+          "name": "Alpha Flight (1983) #3"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12701",
+          "name": "Alpha Flight (1983) #4"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12712",
+          "name": "Alpha Flight (1983) #5"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12723",
+          "name": "Alpha Flight (1983) #6"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12734",
+          "name": "Alpha Flight (1983) #7"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12745",
+          "name": "Alpha Flight (1983) #8"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12756",
+          "name": "Alpha Flight (1983) #9"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12638",
+          "name": "Alpha Flight (1983) #10"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12649",
+          "name": "Alpha Flight (1983) #11"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12660",
+          "name": "Alpha Flight (1983) #12"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12671",
+          "name": "Alpha Flight (1983) #13"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12673",
+          "name": "Alpha Flight (1983) #14"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12674",
+          "name": "Alpha Flight (1983) #15"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12675",
+          "name": "Alpha Flight (1983) #16"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12676",
+          "name": "Alpha Flight (1983) #17"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/12677",
+          "name": "Alpha Flight (1983) #18"
+        }
+      ],
+      "returned": 20
+    },
+    "series": {
+      "available": 171,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/1827/series",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/9994",
+          "name": "ACTS OF VENGEANCE CROSSOVERS OMNIBUS (2011)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/9995",
+          "name": "ACTS OF VENGEANCE CROSSOVERS OMNIBUS (DM Only) (2011)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2116",
+          "name": "Alpha Flight (1983 - 1994)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/22375",
+          "name": "Alpha Flight by John Byrne Omnibus (2017)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/454",
+          "name": "Amazing Spider-Man (1999 - 2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2984",
+          "name": "Amazing Spider-Man Annual (1964 - 2018)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/19282",
+          "name": "Ant-Man: Scott Lang (2015)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1991",
+          "name": "Avengers (1963 - 1996)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1988",
+          "name": "Avengers Annual (1967 - 1994)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/3624",
+          "name": "Avengers West Coast Annual (1986 - 1993)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/3462",
+          "name": "Avengers West Coast: Darker than Scarlet (2008)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1497",
+          "name": "Avengers West Coast: Vision Quest (2005)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18015",
+          "name": "Avengers: Absolute Vision (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/10054",
+          "name": "Avengers: Hawkeye TPB (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/17721",
+          "name": "Avengers: Heart of Stone (2013)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18287",
+          "name": "Avengers: The Legacy of Thanos (2014)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/19316",
+          "name": "Avengers: The Vibranium Collection (2015)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1503",
+          "name": "Best of the Fantastic Four Vol. 1 (2005)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/26186",
+          "name": "Black Panther Epic Collection: Revenge Of The Black Panther (2019)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1996",
+          "name": "Captain America (1968 - 1996)"
+        }
+      ],
+      "returned": 20
+    },
+    "stories": {
+      "available": 807,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/1827/stories",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/91",
+          "name": "One of the X-Men, Jean Grey, has unwittingly attained power beyond imagination.  As the Dark Phoenix, she is capable of incinera",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/353",
+          "name": "Ever expanding their ranks, the Children of the Atom combat the evils threatening both mutants and humans – like the Juggernaut ",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/365",
+          "name": "Ever expanding their ranks, the Children of the Atom combat the evils threatening both mutants and humans – like the Juggernaut ",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/4831",
+          "name": "Black Panther 26 (2001); Marvel Team-Up 100, Marvel Mystery Comics 7 (Ka-Zar), bios",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6811",
+          "name": "FF Annual 3; Incredible Hulk 319; Avengers 59-60, 127; FF 150; ASM Ann 21; X-Men 30",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6827",
+          "name": "X-Men 132-140, Annual 4",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6828",
+          "name": "X-Men 132-140, Annual 4",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6936",
+          "name": "Avengers West Coast 42-50",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/6937",
+          "name": "Avengers West Coast 42-50",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/7220",
+          "name": "X-Men 120 - 141, Uncanny 142-144",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/7221",
+          "name": "X-Men 120 - 141, Uncanny 142-144",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/7451",
+          "name": "X-Men 129-137",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/7452",
+          "name": "X-Men 129-137",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/12675",
+          "name": "Blastaar!",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/12677",
+          "name": "Where There Be Gods!",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/12679",
+          "name": "Masquerade!",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/12688",
+          "name": "Cover #12688",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/12689",
+          "name": "\"...And the Lights Went Out All Over the World!\"",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/12691",
+          "name": "FANTASTIC FOUR (1961) #221",
+          "type": "cover"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/12692",
+          "name": "Tower of Crystal...Dreams of Glass!",
+          "type": "interiorStory"
+        }
+      ],
+      "returned": 20
+    },
+    "events": {
+      "available": 6,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/1827/events",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/116",
+          "name": "Acts of Vengeance!"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/233",
+          "name": "Atlantis Attacks"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/240",
+          "name": "Days of Future Present"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/246",
+          "name": "Evolutionary War"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/270",
+          "name": "Secret Wars"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/events/271",
+          "name": "Secret Wars II"
+        }
+      ],
+      "returned": 6
+    },
+    "urls": [
+      {
+        "type": "detail",
+        "url": "http://marvel.com/comics/creators/1827/john_byrne?utm_campaign=apiRef&utm_source=6f837e91ec6b530eacad380b45a8d6e5"
+      }
+    ]
+  }
+]

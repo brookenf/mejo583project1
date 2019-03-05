@@ -1,0 +1,308 @@
+
+  {
+    "id": 1447,
+    "firstName": "Don",
+    "middleName": "",
+    "lastName": "Rico",
+    "suffix": "",
+    "fullName": "Don Rico",
+    "modified": "-0001-11-30T00:00:00-0500",
+    "thumbnail": {
+      "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/10/4bb838679dae5",
+      "extension": "jpg"
+    },
+    "resourceURI": "http://gateway.marvel.com/v1/public/creators/1447",
+    "comics": {
+      "available": 55,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/1447/comics",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/16810",
+          "name": "Astonishing (1951) #14"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/1357",
+          "name": "Avengers Vol. 5: Once an Invader (Trade Paperback)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7853",
+          "name": "Captain America Comics (1941) #13"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7854",
+          "name": "Captain America Comics (1941) #14"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7855",
+          "name": "Captain America Comics (1941) #15"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7856",
+          "name": "Captain America Comics (1941) #16"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7857",
+          "name": "Captain America Comics (1941) #17"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7858",
+          "name": "Captain America Comics (1941) #18"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7859",
+          "name": "Captain America Comics (1941) #19"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7861",
+          "name": "Captain America Comics (1941) #20"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7862",
+          "name": "Captain America Comics (1941) #21"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7863",
+          "name": "Captain America Comics (1941) #22"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7864",
+          "name": "Captain America Comics (1941) #23"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7865",
+          "name": "Captain America Comics (1941) #24"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7868",
+          "name": "Captain America Comics (1941) #27"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7880",
+          "name": "Captain America Comics (1941) #38"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7900",
+          "name": "Captain America Comics (1941) #56"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/7902",
+          "name": "Captain America Comics (1941) #58"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/21047",
+          "name": "Giant-Size Avengers/Invaders (2008) #1"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/comics/8831",
+          "name": "Human Torch (1940) #11"
+        }
+      ],
+      "returned": 20
+    },
+    "series": {
+      "available": 31,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/1447/series",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2982",
+          "name": "Astonishing (1951 - 1957)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1262",
+          "name": "Avengers Vol. 5: Once an Invader (2004)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1998",
+          "name": "Captain America Comics (1941 - 1954)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/4461",
+          "name": "Giant-Size Avengers/Invaders (2008)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2019",
+          "name": "Human Torch (1940 - 1954)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2028",
+          "name": "Invaders Annual (1977)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18831",
+          "name": "Invaders Classic: The Complete Collection Vol. 1 (2014)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/16355",
+          "name": "Lorna the Jungle Girl (1954 - 1957)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/14893",
+          "name": "Marvel Masterworks: Atlas Era Jungle Adventure (2011 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/14830",
+          "name": "Marvel Masterworks: Atlas Era Jungle Adventure (2011 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/8957",
+          "name": "Marvel Masterworks: Atlas Era Jungle Adventure Vol. 1 (2010 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/8958",
+          "name": "Marvel Masterworks: Atlas Era Jungle Adventure Vol. 1 (Variant) (2010 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/2964",
+          "name": "Marvel Masterworks: Atlas Era Strange Tales Vol. 1 (2007)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1538",
+          "name": "Marvel Masterworks: Captain Marvel Vol. 1 (2005)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/188",
+          "name": "Marvel Masterworks: Doctor Strange Vol. 1 (2003)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/6240",
+          "name": "Marvel Masterworks: Golden Age All-Winners Vol. 3 (2008 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/8039",
+          "name": "Marvel Masterworks: Golden Age Captain America Vol. 4 (2010 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/8969",
+          "name": "Marvel Masterworks: Golden Age Captain America Vol. 5 (2011 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/8970",
+          "name": "Marvel Masterworks: Golden Age Captain America Vol. 5 (Variant) (2011 - Present)"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/1701",
+          "name": "Marvel Masterworks: The Human Torch Vol. (2006)"
+        }
+      ],
+      "returned": 20
+    },
+    "stories": {
+      "available": 59,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/1447/stories",
+      "items": [
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/8837",
+          "name": "Mystery of the Blue Diamond",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9229",
+          "name": "[Origin of the Secret Stamp]",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9237",
+          "name": "[The Three-Man Blitzkrieg]",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9244",
+          "name": "[The Substitute Secret Stamp]",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9251",
+          "name": "Murder in Cross Lane",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9260",
+          "name": "[The Stolen Birth Certificates]",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9263",
+          "name": "Bowling Alley of Death",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9266",
+          "name": "The Mikado's Super Shell",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9267",
+          "name": "[Enter:  The Fighting Fool]",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9268",
+          "name": "The Case of the \"Costumed Crook\"",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9272",
+          "name": "The Crocodile Strikes",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9277",
+          "name": "Roddy's Double Trouble",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9290",
+          "name": "The Case of the Killer Shylock",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9298",
+          "name": "The Cobra Strikes",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9302",
+          "name": "The Case of the Silent Hermit",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9310",
+          "name": "War Bond Vengeance",
+          "type": "interiorStory"
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9317",
+          "name": "The Case of the Bund's Bonds",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9326",
+          "name": "The Mystery of the Song of the Wind",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9346",
+          "name": "Roddy Colt Steps Out",
+          "type": ""
+        },
+        {
+          "resourceURI": "http://gateway.marvel.com/v1/public/stories/9425",
+          "name": "Frozen Death",
+          "type": "interiorStory"
+        }
+      ],
+      "returned": 20
+    },
+    "events": {
+      "available": 0,
+      "collectionURI": "http://gateway.marvel.com/v1/public/creators/1447/events",
+      "items": [],
+      "returned": 0
+    },
+    "urls": [
+      {
+        "type": "detail",
+        "url": "http://marvel.com/comics/creators/1447/don_rico?utm_campaign=apiRef&utm_source=6f837e91ec6b530eacad380b45a8d6e5"
+      }
+    ]
+  }
