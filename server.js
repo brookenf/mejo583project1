@@ -79,50 +79,25 @@ marvel.characters.findAll(100)
 */
 
 
-// marvel.creators.findAll(100)
-//   .then(function(res) {
-//     return new Promise(function(resolve, reject) { 
-//       fs.writeFile("./creators.json", JSON.stringify(res.data, null, 2), (err) => {
-//         if (err) reject(err);
-//         else resolve();
-//         console.log('Creators have been pushed into JSON file');
-//       });
-//     });           
-//   })
-//   .fail(console.error)
-//   .done();
+/* 
 
-// marvel.creators.findAll(100, 100)
-//   .then(function(res) {
-//     return new Promise(function(resolve, reject) { 
-//       fs.writeFile("./creators2.json", JSON.stringify(res.data, null, 2), (err) => {
-//         if (err) reject(err);
-//         else resolve();
-//         console.log('Creators 2 have been pushed into JSON file');
-//       });
-//     });           
-//   })
-//   .fail(console.error)
-//   .done();
-
-// marvel.creators.findAll(200, 5)
-//   .then(function(res) {
-//     return new Promise(function(resolve, reject) { 
-//       fs.writeFile("./creators3.json", JSON.stringify(res.data, null, 2), (err) => {
-//         if (err) reject(err);
-//         else resolve();
-//         console.log('Creators 3 have been pushed into JSON file');
-//       });
-//     });           
-//   })
-//   .fail(console.error)
-//   .done();
+marvel.creators.findByName('Stan', '', 'Lee')
+  .then(function(res) {
+    console.log(res.data);
   
-
-
-
-
-
+    return new Promise(function(resolve, reject) {
+      fs.writeFile("./stan-lee.json", JSON.stringify(res.data, null, 2), (err) => { 
+        if (err) reject (err);
+        else resolve();
+        console.log('Stan Lee JSON has been made');      
+      });
+    });
+  
+  })
+  .fail(console.error)
+  .done();
+  
+*/
 
 //-------------------------------------------------------------//
 //------------------------- Get JSON  -------------------------//
@@ -136,6 +111,11 @@ app.get('/characters', function(request, response) {
 // Get the Spider-Man data
 app.get('/spider-man', function(request, response) {
   response.sendFile(__dirname + 'spider-man.json');
+});
+
+app.get('/creators', function(request, response) {
+  response.sendFile(__dirname + 'creators.json');
+  response.sendFile(__dirname + 'creators2.json');
 });
 
 // listen for requests :)

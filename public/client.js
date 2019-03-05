@@ -132,9 +132,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     
     char.innerHTML = html;
-    
-  
+     
   });
+  
   
 
   // end of Document.addEventlistener
