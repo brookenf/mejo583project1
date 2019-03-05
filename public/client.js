@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
     data.map((creator) => {
      var creatorlabel = creator.fullName;
      var creatorStats = {
-       "comics": creator.comics.available,
-       "series": creator.series.available,
-       "stories": creator.stories.available
-     };
+       label: ",
+       backgroundColor: "red",
+       data: creator.comics.available
+     }
      
      arrName.push(creatorlabel);
      arrStats.push(creatorStats);
