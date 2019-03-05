@@ -119,17 +119,9 @@ document.addEventListener("DOMContentLoaded", () => {
     
         
     for(var i = 0; i < data.length; i ++) {
-      html += '<div class="flex-column character__card">';
-        var urls = data[i].urls;
-        
-        urls.forEach((url) => {
-          if (url.type = "wiki") {
-             html += `<a href="${url.url}" target="_blank"><h1>${data[i].name}</h1></a>`;
-          }
-        });
-      
+      html += '<div class="flex-column character__card">';      
+        html += `<h1>${data[i].name}</h1>`;
        
-      
         // Get the images
         var ext = data[i].thumbnail.extension;
         html += `<img src="${data[i].thumbnail.path}/standard_medium.${ext}" alt="${data[i].name}">`;
