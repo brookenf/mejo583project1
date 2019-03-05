@@ -42,41 +42,56 @@ var marvel = api.createClient({
 
 */
 
+/*
 
-// marvel.characters.findByName('spider-man')
-//   .then(function(res) {
-//     console.log('Found character ID', res.data[0].id);
-//     // return marvel.characters.comics(res.data[0].id);
-//     return new Promise(function(resolve, reject) { 
-//       fs.writeFile("./spider-man.json", JSON.stringify(res.data[0], null, 2), (err) => {
-//         if (err) reject(err);
-//         else resolve();
-//         console.log('Spidey has been made');
-//       });
-//     });           
-//   })
-//   .fail(console.error)
-//   .done();
+marvel.characters.findByName('spider-man')
+  .then(function(res) {
+    console.log('Found character ID', res.data[0].id);
+    // return marvel.characters.comics(res.data[0].id);
+    return new Promise(function(resolve, reject) { 
+      fs.writeFile("./spider-man.json", JSON.stringify(res.data[0], null, 2), (err) => {
+        if (err) reject(err);
+        else resolve();
+        console.log('Spidey has been made');
+      });
+    });           
+  })
+  .fail(console.error)
+  .done(); 
 
-// marvel.characters.findAll(100)
-//   .then(function(res) {
-//     return new Promise(function(resolve, reject) { 
-//       fs.writeFile("./characters.json", JSON.stringify(res.data, null, 2), (err) => {
-//         if (err) reject(err);
-//         else resolve();
-//         console.log('Charaters have been made');
-//       });
-//     });           
-//   })
-//   .fail(console.error)
-//   .done();
+*/
+
+/* 
+
+marvel.characters.findAll(100)
+  .then(function(res) {
+    return new Promise(function(resolve, reject) { 
+      fs.writeFile("./characters.json", JSON.stringify(res.data, null, 2), (err) => {
+        if (err) reject(err);
+        else resolve();
+        console.log('Charaters have been made');
+      });
+    });           
+  })
+  .fail(console.error)
+  .done();
+  
+*/
+
+
 
 //-------------------------------------------------------------//
 //------------------------- Get JSON  -------------------------//
 //-------------------------------------------------------------//
 
+// Get the general Characters Data
 app.get('/characters', function(request, response) {
   response.sendFile(__dirname + '/characters.json');
+});
+
+// Get the Spider-Man data
+app.get('/spider-man', function(request, response) {
+  response.sendFile(__dirname + 'spider-man.json');
 });
 
 // listen for requests :)
