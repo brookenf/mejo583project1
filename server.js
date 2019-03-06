@@ -143,8 +143,14 @@ let avengers = [{
 
 // Create for loop over avengers array
 avengers.forEach((avenger) => {
-  console.log(avenger);
-
+  
+  // call Marvel API data
+  marvel.characters.findByName(avenger.name)
+    .then(function (res) {
+     console.log('Found character ID', avenger.name, res.data[0].id);
+    })
+    .fail(console.error)
+    .done();
 });
 
 
