@@ -105,7 +105,7 @@ let avengers = [{
     "status": "alive"
   },
   {
-    "name": "Dr. Strange",
+    "name": "Doctor Strange",
     "team": "Avengers",
     "status": "died"
   },
@@ -120,7 +120,7 @@ let avengers = [{
     "status": "died"
   },
   {
-    "name": "Ant-Man",
+    "name": "Ant-Man (Scott Lang)",
     "team": "Avengers",
     "status": "alive"
   },
@@ -147,15 +147,25 @@ avengers.forEach((avenger) => {
   // call Marvel API data
   marvel.characters.findByName(avenger.name)
     .then(function (res) {
-      console.log('Found character ID', avenger.name, res.data[0].id);
+      // console.log('Found character ID', avenger.name, res.data[0].id);
       
-      // avenger.data = res.data;
+      avenger.data = res.data[0];
       // console.log(avenger.data);
     
     // create a while loop 
-    // while (avengers.filter(avenger => avenger.data !== undefined).length === avengers.length) {
-    //     console.log(avengers);
-    // }
+    while (avengers.filter(avenger => avenger.data !== undefined).length === avengers.length) {
+        // console.log(avengers);
+     
+      // write the file
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./avengers.json", JSON.stringify(avengers, null, 2), (err) => {
+          if (err) reject (err);
+          else resolve();
+          console.log('Avengers file has been created');
+        });
+      
+      });
+    }
     
     })
     .fail(console.error)
