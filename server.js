@@ -273,9 +273,9 @@ app.get('/creators', function(request, response) {
   response.sendFile(__dirname + '/creators.json');
 });
 
-// app.get('/creators2', function(request, response) {
-//   response.sendFile(__dirname + '/creators2.json');
-// });
+app.get('/creators2', function(request, response) {
+  response.sendFile(__dirname + '/creators2.json');
+});
 
 app.get('/avengers', function(request, response) {
   response.sendFile(__dirname + '/avengers.json');

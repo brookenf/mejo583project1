@@ -57,8 +57,12 @@ canvas {
 
 .panel{
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   margin-bottom: 100vh;
+}
+
+.charts {
+  padding-top: 10vh;
 }
 
 .characters{

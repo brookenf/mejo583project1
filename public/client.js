@@ -120,6 +120,13 @@ document.addEventListener("DOMContentLoaded", () => {
   
   });
   
+  fetch('/creators2').then(resp => resp.json()).then((data) => {
+    console.group('%cResponse from /creators2', 'color: #4B9CD3; font-size: large');
+    console.log(data);
+    console.groupEnd();  
+  
+  });
+  
   
   // Spider-Man
   fetch('/spider-man').then(resp => resp.json()).then((data) => {
