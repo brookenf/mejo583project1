@@ -120,6 +120,10 @@ canvas#barChart {
   margin: 2vh auto;
 }
 
+#marvel-characters {
+  margin-bottom: 5vh;
+}
+
 .buttons {
   width: 100vw;
   margin-bottom: 3vh;
