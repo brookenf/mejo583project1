@@ -66,6 +66,9 @@ canvas {
 .charts {
   margin-top: 12vh;
 }
+.charts a:hover {
+  text-decoration: underline;
+}
 
 .characters{
   overflow-x: scroll;
