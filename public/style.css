@@ -99,6 +99,7 @@ canvas#barChart {
   transition: border-bottom 0.1s;
 }
 
+
 .spider-man a:after {
   display: block;
   content: '';
@@ -149,7 +150,7 @@ canvas#barChart {
   flex-basis: 33%;
 }
 
-.buttons span, .Avengers h2 {
+.buttons span, .mixitup-control-active span, .Avengers h2 {
   display: inline-block;
 }
 
@@ -162,6 +163,14 @@ canvas#barChart {
   transition: transform 250ms ease-in-out; 
   transform-origin:  0% 50%;
 }
+
+.mixitup-control-active span:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #fff;  
+  transform: scaleX(1);
+}
+
 
 .buttons span:hover:after, .Avengers h2:hover:after {
   transform: scaleX(1); 
