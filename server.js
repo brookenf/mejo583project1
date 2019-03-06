@@ -255,7 +255,7 @@ creators.forEach((creator) => {
   
 
 //-------------------------------------------------------------//
-//------------------------- Get JSON  -------------------------//
+//------------------------- Get JSON --------------------------//
 //-------------------------------------------------------------//
 
 // Get the general Characters Data
@@ -272,9 +272,13 @@ app.get('/creators', function(request, response) {
   response.sendFile(__dirname + '/creators.json');
 });
 
-// app.get('/stan-lee', function(request, response) {
-//   response.sendFile(__dirname + '/stan-lee.json');
+// app.get('/creators2', function(request, response) {
+//   response.sendFile(__dirname + '/creators2.json');
 // });
+
+app.get('/avengers', function(request, response) {
+  response.sendFile(__dirname + '/avengers.json');
+});
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
