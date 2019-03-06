@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     html += '<div data-filter=".died">Died/Disintegrated</div></div>';
     
     // Build a div for the looped data to sit in
-    html += '<div>'
+    html += '<div class="flex marvel__avengers">'
     // loop through the data
     data.forEach((avenger) => {
       console.log(avenger);
