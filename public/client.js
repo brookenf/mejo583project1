@@ -56,10 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
     
     // Map over the Creator data array to grab data for table
     data.map((creator) => {
-      var creatorlabel = creator.fullName;
-      var comicsData = creator.comics.available;
-      var seriesData = creator.series.available;
-      var storiesData = creator.stories.available;
+      var creatorlabel = creator.data.fullName;
+      var comicsData = creator.data.comics.available;
+      var seriesData = creator.data.series.available;
+      var storiesData = creator.data.stories.available;
 
       arrName.push(creatorlabel);
       arrComicsStats.push(comicsData);
@@ -120,25 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   });
   
-  fetch('/creators2').then(resp => resp.json()).then((data) => {
-    console.group('%cResponse from /creators2', 'color: #4B9CD3; font-size: large');
-    console.log(data);
-    console.groupEnd(); 
-    
-    // Define variables
-    var html = "";
-    var chartsImg = document.getElementById('charts-img');
-    
-    // Get each person's picture
-    data.forEach((creator) => {
-      console.log(creator);
-      
-    });
-    
-//     chartsImg.innerHTML = html;
-  
-  });
-  
+
   
   // Spider-Man
   fetch('/spider-man').then(resp => resp.json()).then((data) => {
