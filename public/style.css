@@ -29,6 +29,7 @@ header {
   width: 100vw;
   z-index: 15;
   transition: top .3s;
+  top: 0;
 }
 
 h1 {
@@ -57,12 +58,12 @@ canvas {
 
 .panel{
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   margin-bottom: 100vh;
 }
 
 .charts {
-  padding-top: 10vh;
+  margin-top: 15vh;
 }
 
 .characters{
