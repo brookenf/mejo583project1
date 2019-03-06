@@ -187,7 +187,17 @@ document.addEventListener("DOMContentLoaded", () => {
       // console.log(avenger);
       
       html += `<div class="mix ${avenger.status} ${avenger.team}">`;
-        html += `<h2>${avenger.name}</h2>`;
+      
+        console.log(avenger.data.urls);
+        var urls = avenger.data.urls;
+      
+        urls.forEach((url) => {
+          if (url.type === "wiki") {
+            html += `<a href="${url.url}" target="">`;
+              html += `<h2>${avenger.name}</h2>`;
+            html += '</a>';
+          }
+        });
         var imgSrc = avenger.data.thumbnail.path;
         var imgExt = avenger.data.thumbnail.extension;
         // console.log(avenger.name, imgSrc, imgExt);
