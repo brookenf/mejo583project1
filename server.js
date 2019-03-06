@@ -147,7 +147,16 @@ avengers.forEach((avenger) => {
   // call Marvel API data
   marvel.characters.findByName(avenger.name)
     .then(function (res) {
-     console.log('Found character ID', avenger.name, res.data[0].id);
+      console.log('Found character ID', avenger.name, res.data[0].id);
+      
+      // avenger.data = res.data;
+      // console.log(avenger.data);
+    
+    // create a while loop 
+    // while (avengers.filter(avenger => avenger.data !== undefined).length === avengers.length) {
+    //     console.log(avengers);
+    // }
+    
     })
     .fail(console.error)
     .done();
