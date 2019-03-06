@@ -88,8 +88,8 @@ canvas#barChart {
 .spider-man {
   background-color: #DF1F2D;
   color: #fff;
-  background-image: url('http://www.stickpng.com/assets/images/580b57fbd9996e24bc43bc75.png');
-  background-size: cover;
+  background-image: url('https://media3.giphy.com/media/4bli87TWiPEcQcI4Vz/source.gif');
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
