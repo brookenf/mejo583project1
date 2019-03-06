@@ -141,7 +141,7 @@ var marvel = api.createClient({
 //   },                
 // ];
 
-// // Create for loop over avengers array
+// Create for loop over avengers array
 // avengers.forEach((avenger) => {
   
 //   // call Marvel API data
@@ -180,11 +180,79 @@ var marvel = api.createClient({
 */
 
 let creators = [{
-  "first": "Stan",
-  "last": "Lee"
-},
-
+    "first": "Stan",
+    "last": "Lee"
+  },
+  {
+    "first": "Jason",
+    "last": "Aaron"
+  },
+  {
+    "first": "Steve",
+    "last": "Ditko"
+  },
+  {
+    "first": "Jack",
+    "last": "Kirby"
+  },
+  {
+    "first": "Larry",
+    "last": "Lieber"
+  }, 
+  {
+    "first": "Joe",
+    "last": "Simon"
+  },
+  {
+    "first": "David",
+    "last": "Michelinie"
+  }, 
+  {
+    "first": "John",
+    "last": "Byrne"
+  },
+  {
+    "first": "Don",
+    "last": "Rico"
+  },   
+  {
+    "first": "Don",
+    "last": "Heck"
+  }
 ]
+
+// Create for loop over creators
+
+creators.forEach((creator) => {
+  
+  // call Marvel API data
+  marvel.creators.findByName(creator.first, '', creator.last)
+    .then(function (res) {
+      // console.log('Found creator ID', creator.first, creator.last, res.data[0].id);
+      
+      creator.data = res.data[0];
+      // console.log(creator.data);
+    
+    // create a while loop 
+    while (creators.filter(creator => creator.data !== undefined).length === creators.length) {
+        // console.log(creators);
+     
+      // write the file
+//       return new Promise(function(resolve, reject) {
+//         fs.writeFile("./creators2.json", JSON.stringify(creators, null, 2), (err) => {
+//           if (err) reject (err);
+//           else resolve();
+//           console.log('Creators2 file has been created');
+//         });
+      
+//       });
+    }
+    
+    })
+    .fail(console.error)
+    .done();
+});
+
 
 /* 
   marvel.creators.findByName('Stan', '', 'Lee')
