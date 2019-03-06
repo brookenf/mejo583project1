@@ -3,9 +3,17 @@
 
 // init project
 var express = require('express');
-var fs = require("fs");
 var app = express();
-var characters10;
+
+/* 
+  File Server https://nodejs.org/api/fs.html#fs_fs_writefile_file_data_options_callback 
+  
+  This is to writeFile to a JSON file after the call is fired so the data will be stored server-side and then able to be fetched
+  by the public/client.js through app.get
+  
+*/
+var fs = require("fs");
+
 
 // we've started you off with Express, 
 // but feel free to use whatever libs or frameworks you'd like through `package.json`.
@@ -39,14 +47,16 @@ var marvel = api.createClient({
   I've commented these out because I've gotten the data and pushed them into a json file which I'm pulling from (see the GET JSON part below). 
   
   I've also commented them out so they don't continuously run and use up my 3000 per day limit 
+  
+  Here is where I learned to write a fs.writeFile as a promise: 
 */
 
 // Spider-Man data
 /*
   marvel.characters.findByName('spider-man')
     .then(function(res) {
-      console.log('Found character ID', res.data[0].id);
-      // return marvel.characters.comics(res.data[0].id);
+      console.log('Found character ID', res.data[0].id); 
+      
       return new Promise(function(resolve, reject) { 
         fs.writeFile("./spider-man.json", JSON.stringify(res.data[0], null, 2), (err) => {
           if (err) reject(err);
