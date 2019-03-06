@@ -173,9 +173,11 @@ document.addEventListener("DOMContentLoaded", () => {
     var html = '';
     var avengersContainer = document.getElementById('marvel-characters');
     
-    html += '<div class ="buttons flex"><div data-filter="all">All</div>';
-    html += '<div data-filter=".alive">Alive</div>';
-    html += '<div data-filter=".died">Died/Disintegrated</div></div>';
+    html += '<div class ="controls buttons flex">';
+      html += '<div data-filter="all">All</div>';
+      html += '<div data-filter=".alive">Alive</div>';
+      html += '<div data-filter=".died">Died/Disintegrated</div>';
+    html += '</div>';
     
     // Build a div for the looped data to sit in
     html += '<div class="flex marvel__avengers">'
@@ -195,7 +197,9 @@ document.addEventListener("DOMContentLoaded", () => {
     
     html += '</div>';
     
-    avengersContainer.innerHTML = html;
+    avengersContainer.innerHTML = html
+    
+    var mixer = mixitup('#marvel-characters');
   });
  
   
