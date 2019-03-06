@@ -109,7 +109,7 @@ canvas#barChart {
 }
 
 .buttons {
-  flex-basis: 100%;
+  width: 100vw;
   margin-bottom: 3vh;
   justify-content: space-around;
 }
@@ -118,6 +118,7 @@ canvas#barChart {
   font-size: 1.3rem;
   cursor: pointer;
   display: inline-block;
+  flex-basis: 33%;
 }
 
 .buttons div:after {

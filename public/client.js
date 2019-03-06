@@ -162,12 +162,19 @@ document.addEventListener("DOMContentLoaded", () => {
     html += '<div data-filter=".alive">Alive</div>';
     html += '<div data-filter=".died">Died/Disintegrated</div></div>';
     
+    // Build a div for the looped data to sit in
+    html += '<div>'
     // loop through the data
     data.forEach((avenger) => {
       console.log(avenger);
       
       html += `<div class="mix ${avenger.status}">`;
+        html += `<h2>${avenger.name}</h2>`;
+      
+      html += `</div>`;
     });
+    
+    html += '</div>';
     
     avengersContainer.innerHTML = html;
   });
