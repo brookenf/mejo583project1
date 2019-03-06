@@ -143,6 +143,10 @@ canvas#barChart {
   width: 25vw;
 }
 
+.mix img {
+  border-radius: 50%;
+}
+
 
 
 

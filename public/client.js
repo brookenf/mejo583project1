@@ -1,10 +1,12 @@
-/* global Chart, ScrollMagic */
+/* global Chart, ScrollMagic, mixitup */
 
 document.addEventListener("DOMContentLoaded", () => {
   // client-side js
   // run by the browser each time your view template is loaded
 
   console.log('hello world, my DOM is loaded :o');
+  
+  
   
   // Scroll Magic
   var controller = new ScrollMagic.Controller({
