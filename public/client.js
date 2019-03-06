@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // client-side js
   // run by the browser each time your view template is loaded
   
+  
+  console.log('hello world, my DOM is loaded :o');
+  
   // Header sticky
   console.log('testing to make sure headers.js is linked up');
   var prevScrollpos = window.pageYOffset;
@@ -15,11 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
           document.getElementById("header").style.top = "-80px";
       }
       prevScrollpos = currentScrollPos;
-  }
-
-  console.log('hello world, my DOM is loaded :o');
-  
-  
+  }  
   
   // Scroll Magic
   var controller = new ScrollMagic.Controller({
@@ -117,11 +116,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
     });
-  
   });
-  
-
-  
+    
   // Spider-Man
   fetch('/spider-man').then(resp => resp.json()).then((data) => {
     console.group('%cResponse from /spider-man', 'color: #4B9CD3; font-size: large');
@@ -174,6 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
     var html = '';
     var avengersContainer = document.getElementById('marvel-characters');
     
+    // Create mixitup buttons
     html += '<div class ="controls buttons flex">';
       html += '<div data-filter="all"><span>All</span></div>';
       html += '<div data-filter=".alive"><span>Alive</span></div>';
@@ -184,13 +181,16 @@ document.addEventListener("DOMContentLoaded", () => {
     html += '<div class="flex marvel__avengers">'
     // loop through the data
     data.forEach((avenger) => {
+      
       // console.log(avenger);
       
+      // create each avenger
       html += `<div class="mix ${avenger.status} ${avenger.team} flex-column">`;
       
-        console.log(avenger.data.urls);
+        // console.log(avenger.data.urls);
         var urls = avenger.data.urls;
-      
+        
+        // loop over urls to make each Avenger's name a link
         urls.forEach((url) => {
           if (url.type === "wiki") {
             html += `<a href="${url.url}" target="_blank">`;
@@ -198,26 +198,26 @@ document.addEventListener("DOMContentLoaded", () => {
             html += '</a>';
           }
         });
+      
         var imgSrc = avenger.data.thumbnail.path;
         var imgExt = avenger.data.thumbnail.extension;
         // console.log(avenger.name, imgSrc, imgExt);
-        html += `<img src="${imgSrc}/standard_xlarge.${imgExt}" />`;
       
+        // build each Avenger's picture
+        html += `<img src="${imgSrc}/standard_xlarge.${imgExt}" />`;
+      // close the div
       html += `</div>`;
     });
     
+    // close the div containing both the buttons and the items
     html += '</div>';
     
+    //send html to views/index.html
     avengersContainer.innerHTML = html
     
+    // initialize mixitup
     var mixer = mixitup('#marvel-characters');
   });
  
-  
-  
-    
-  
-  
-
   // end of Document.addEventlistener
 });

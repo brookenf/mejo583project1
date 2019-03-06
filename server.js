@@ -56,22 +56,21 @@ var marvel = api.createClient({
 */
 
 // Spider-Man data
-/*
-  marvel.characters.findByName('spider-man')
-    .then(function(res) {
-      console.log('Found character ID', res.data[0].id); 
-      
-      return new Promise(function(resolve, reject) { 
-        fs.writeFile("./spider-man.json", JSON.stringify(res.data[0], null, 2), (err) => {
-          if (err) reject(err);
-          else resolve();
-          console.log('Spidey has been made');
-        });
-      });           
-    })
-    .fail(console.error)
-    .done(); 
-*/
+marvel.characters.findByName('spider-man')
+  .then(function(res) {
+    console.log('Found character ID', res.data[0].id); 
+
+    return new Promise(function(resolve, reject) { 
+      fs.writeFile("./spider-man.json", JSON.stringify(res.data[0], null, 2), (err) => {
+        if (err) reject(err);
+        else resolve();
+        console.log('Spidey has been made');
+      });
+    });           
+  })
+  .fail(console.error)
+  .done(); 
+
 
 
 // Avengers Characters data
@@ -143,43 +142,39 @@ let avengers = [{
 ];
 
 // Create for loop over avengers array
-// avengers.forEach((avenger) => {
+avengers.forEach((avenger) => {
   
-//   // call Marvel API data
-//   marvel.characters.findByName(avenger.name)
-//     .then(function (res) {
-//       // console.log('Found character ID', avenger.name, res.data[0].id);
+  // call Marvel API data
+  marvel.characters.findByName(avenger.name)
+    .then(function (res) {
+      // console.log('Found character ID', avenger.name, res.data[0].id);
       
-//       avenger.data = res.data[0];
-//       // console.log(avenger.data);
+      avenger.data = res.data[0];
+      // console.log(avenger.data);
     
-//     // create a while loop 
-//     while (avengers.filter(avenger => avenger.data !== undefined).length === avengers.length) {
-//         // console.log(avengers);
+    // create a while loop 
+    while (avengers.filter(avenger => avenger.data !== undefined).length === avengers.length) {
+        // console.log(avengers);
      
-//       // write the file
-//       return new Promise(function(resolve, reject) {
-//         fs.writeFile("./avengers.json", JSON.stringify(avengers, null, 2), (err) => {
-//           if (err) reject (err);
-//           else resolve();
-//           console.log('Avengers file has been created');
-//         });
+      // write the file
+      return new Promise(function(resolve, reject) {
+        fs.writeFile("./avengers.json", JSON.stringify(avengers, null, 2), (err) => {
+          if (err) reject (err);
+          else resolve();
+          console.log('Avengers file has been created');
+        });
       
-//       });
-//     }
+      });
+    }
     
-//     })
-//     .fail(console.error)
-//     .done();
-// });
+    })
+    .fail(console.error)
+    .done();
+});
 
 
 
 // Creators
-/* 
-  I called each creator separately to get the data, but I'll set up a way similar to the avengers to get the data through one call instead of 10 different calls
-*/
-
 let creators = [{
     "first": "Stan",
     "last": "Lee"
@@ -224,55 +219,50 @@ let creators = [{
 
 // Create for loop over creators
 
-// creators.forEach((creator) => {
+creators.forEach((creator) => {
   
   // call Marvel API data
-//   marvel.creators.findByName(creator.first, '', creator.last)
-//     .then(function (res) {
-      // console.log('Found creator ID', creator.first, creator.last, res.data[0].id);
+  marvel.creators.findByName(creator.first, '', creator.last)
+    .then(function (res) {
+      console.log('Found creator ID', creator.first, creator.last, res.data[0].id);
       
-//       creator.data = res.data[0];
+      creator.data = res.data[0];
       // console.log(creator.data);
     
-    // create a while loop 
-//     while (creators.filter(creator => creator.data !== undefined).length === creators.length) {
-        // console.log(creators);
-     
-      // write the file
-//       return new Promise(function(resolve, reject) {
-//         fs.writeFile("./creators2.json", JSON.stringify(creators, null, 2), (err) => {
-//           if (err) reject (err);
-//           else resolve();
-//           console.log('Creators2 file has been created');
-//         });
-      
-//       });
-//     }
-    
-//     })
-//     .fail(console.error)
-//     .done();
-// });
+      // create a while loop 
+      while (creators.filter(creator => creator.data !== undefined).length === creators.length) {
+          console.log(creators);
+
+        // write the file
+        return new Promise(function(resolve, reject) {
+          fs.writeFile("./creators.json", JSON.stringify(creators, null, 2), (err) => {
+            if (err) reject (err);
+            else resolve();
+            console.log('Creators2 file has been created');
+          });
+        });
+      }
+    })
+    .fail(console.error)
+    .done();
+});
   
 
 //-------------------------------------------------------------//
 //------------------------- Get JSON --------------------------//
 //-------------------------------------------------------------//
 
-// Get the general Characters Data
-app.get('/characters', function(request, response) {
-  response.sendFile(__dirname + '/characters.json');
-});
-
 // Get the Spider-Man data
 app.get('/spider-man', function(request, response) {
   response.sendFile(__dirname + '/spider-man.json');
 });
 
+// Get the creators data
 app.get('/creators', function(request, response) {
   response.sendFile(__dirname + '/creators.json');
 });
 
+// Get the avengers data
 app.get('/avengers', function(request, response) {
   response.sendFile(__dirname + '/avengers.json');
 });

@@ -9,9 +9,13 @@
   },
   "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
   "comics": {
-    "available": 2952,
+    "available": 3506,
     "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009610/comics",
     "items": [
+      {
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/62304",
+        "name": "Spider-Man: 101 Ways to End the Clone Saga (1997) #1"
+      },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/comics/60151",
         "name": "A Year of Marvels (Trade Paperback)"
@@ -29,24 +33,32 @@
         "name": "Actor Presents Spider-Man and the Incredible Hulk (2003) #1"
       },
       {
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/30090",
+        "name": "Age of Heroes (2010) #1"
+      },
+      {
         "resourceURI": "http://gateway.marvel.com/v1/public/comics/30885",
         "name": "Age of Heroes (Trade Paperback)"
       },
       {
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/30090",
-        "name": "Age of Heroes (2010) #1"
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/66661",
+        "name": "Agents of Atlas: The Complete Collection Vol. 1 (Trade Paperback)"
+      },
+      {
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/37257",
+        "name": "Alias (2001) #10"
+      },
+      {
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/37262",
+        "name": "Alias (2001) #15"
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/comics/37255",
         "name": "Alias Omnibus (Hardcover)"
       },
       {
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/46847",
-        "name": "Alpha (2013) #0.1"
-      },
-      {
         "resourceURI": "http://gateway.marvel.com/v1/public/comics/46848",
-        "name": "Alpha (2013) #1"
+        "name": "Alpha: Big Time (2013) #1"
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/comics/12637",
@@ -57,8 +69,8 @@
         "name": "Alpha Flight (1983) #127"
       },
       {
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/6233",
-        "name": "Alpha Flight Classic Vol. 1 (Trade Paperback)"
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/46847",
+        "name": "Alpha: Big Time (2013) #0.1"
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/comics/16926",
@@ -74,29 +86,17 @@
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/comics/16214",
-        "name": "Amazing Fantasy Omnibus (Hardcover)"
+        "name": "AMAZING FANTASY OMNIBUS HC (Hardcover)"
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/comics/5286",
         "name": "Amazing Spider-Girl (2006)"
-      },
-      {
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/16151",
-        "name": "Amazing Spider-Girl (2006) #11"
-      },
-      {
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/13519",
-        "name": "Amazing Spider-Girl Vol. 1: Whatever Happened to the Daughter of Spider-Man (Trade Paperback)"
-      },
-      {
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/17305",
-        "name": "Amazing Spider-Girl Vol. 2: Comes the Carnage! (Trade Paperback)"
       }
     ],
     "returned": 20
   },
   "series": {
-    "available": 621,
+    "available": 856,
     "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009610/series",
     "items": [
       {
@@ -128,20 +128,24 @@
         "name": "Age of Ultron (2013)"
       },
       {
-        "resourceURI": "http://gateway.marvel.com/v1/public/series/13383",
-        "name": "Alias Omnibus (2006)"
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/24134",
+        "name": "Agents of Atlas: The Complete Collection Vol. 1 (2018)"
       },
       {
-        "resourceURI": "http://gateway.marvel.com/v1/public/series/17650",
-        "name": "Alpha (2013 - Present)"
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/672",
+        "name": "Alias (2001 - 2003)"
+      },
+      {
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/13383",
+        "name": "Alias Omnibus (2006)"
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/series/2116",
         "name": "Alpha Flight (1983 - 1994)"
       },
       {
-        "resourceURI": "http://gateway.marvel.com/v1/public/series/1983",
-        "name": "Alpha Flight Classic Vol. 1 (2007)"
+        "resourceURI": "http://gateway.marvel.com/v1/public/series/17650",
+        "name": "Alpha: Big Time (2013 - Present)"
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/series/769",
@@ -157,7 +161,7 @@
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/series/2707",
-        "name": "Amazing Fantasy Omnibus (2007)"
+        "name": "AMAZING FANTASY OMNIBUS HC (2007)"
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/series/1126",
@@ -174,16 +178,12 @@
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/series/454",
         "name": "Amazing Spider-Man (1999 - 2013)"
-      },
-      {
-        "resourceURI": "http://gateway.marvel.com/v1/public/series/1987",
-        "name": "The Amazing Spider-Man (1963 - 1998)"
       }
     ],
     "returned": 20
   },
   "stories": {
-    "available": 4679,
+    "available": 5412,
     "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009610/stories",
     "items": [
       {
@@ -200,6 +200,11 @@
         "resourceURI": "http://gateway.marvel.com/v1/public/stories/487",
         "name": "Interior #487",
         "type": "interiorStory"
+      },
+      {
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/498",
+        "name": "SENSATIONAL SPIDER-MAN (2006) #23",
+        "type": "cover"
       },
       {
         "resourceURI": "http://gateway.marvel.com/v1/public/stories/499",
@@ -237,6 +242,26 @@
         "type": "interiorStory"
       },
       {
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/912",
+        "name": "Fantastic Four (1998) #512",
+        "type": "cover"
+      },
+      {
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/913",
+        "name": "Interior #913",
+        "type": "interiorStory"
+      },
+      {
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/916",
+        "name": "Fantastic Four (1998) #513",
+        "type": "cover"
+      },
+      {
+        "resourceURI": "http://gateway.marvel.com/v1/public/stories/917",
+        "name": "Interior #917",
+        "type": "interiorStory"
+      },
+      {
         "resourceURI": "http://gateway.marvel.com/v1/public/stories/1018",
         "name": "Amazing Spider-Man (1999) #500",
         "type": "cover"
@@ -260,37 +285,12 @@
         "resourceURI": "http://gateway.marvel.com/v1/public/stories/1022",
         "name": "Amazing Spider-Man (1999) #502",
         "type": "cover"
-      },
-      {
-        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1023",
-        "name": "Interior #1023",
-        "type": "interiorStory"
-      },
-      {
-        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1076",
-        "name": "4 of 4 - Golden Age",
-        "type": "cover"
-      },
-      {
-        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1125",
-        "name": "Amazing Spider-Man (1999) #514",
-        "type": "cover"
-      },
-      {
-        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1126",
-        "name": "6 of 6 - Sins Past",
-        "type": "interiorStory"
-      },
-      {
-        "resourceURI": "http://gateway.marvel.com/v1/public/stories/1134",
-        "name": "Interior #1134",
-        "type": "interiorStory"
       }
     ],
     "returned": 20
   },
   "events": {
-    "available": 32,
+    "available": 35,
     "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009610/events",
     "items": [
       {
@@ -330,6 +330,10 @@
         "name": "Days of Future Present"
       },
       {
+        "resourceURI": "http://gateway.marvel.com/v1/public/events/332",
+        "name": "Dead No More: The Clone Conspiracy"
+      },
+      {
         "resourceURI": "http://gateway.marvel.com/v1/public/events/245",
         "name": "Enemy of the State"
       },
@@ -350,10 +354,6 @@
         "name": "Inferno"
       },
       {
-        "resourceURI": "http://gateway.marvel.com/v1/public/events/253",
-        "name": "Infinity Gauntlet"
-      },
-      {
         "resourceURI": "http://gateway.marvel.com/v1/public/events/255",
         "name": "Initiative"
       },
@@ -370,8 +370,8 @@
         "name": "Maximum Security"
       },
       {
-        "resourceURI": "http://gateway.marvel.com/v1/public/events/154",
-        "name": "Onslaught"
+        "resourceURI": "http://gateway.marvel.com/v1/public/events/337",
+        "name": "Monsters Unleashed"
       }
     ],
     "returned": 20
