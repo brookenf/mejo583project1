@@ -123,7 +123,19 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch('/creators2').then(resp => resp.json()).then((data) => {
     console.group('%cResponse from /creators2', 'color: #4B9CD3; font-size: large');
     console.log(data);
-    console.groupEnd();  
+    console.groupEnd(); 
+    
+    // Define variables
+    var html = "";
+    var chartsImg = document.getElementById('charts-img');
+    
+    // Get each person's picture
+    data.forEach((creator) => {
+      console.log(creator);
+      
+    });
+    
+//     chartsImg.innerHTML = html;
   
   });
   
@@ -196,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
         html += `<h2>${avenger.name}</h2>`;
         var imgSrc = avenger.data.thumbnail.path;
         var imgExt = avenger.data.thumbnail.extension;
-        console.log(avenger.name, imgSrc, imgExt);
+        // console.log(avenger.name, imgSrc, imgExt);
         html += `<img src="${imgSrc}/standard_xlarge.${imgExt}" />`;
       
       html += `</div>`;

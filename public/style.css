@@ -71,8 +71,12 @@ canvas {
 }
 
 canvas#barChart {
-  width: 70vw;
-  height: 70vh; 
+  width: 60vw;
+  height: 60vh; 
+}
+
+#charts-img {
+  flex-wrap: wrap;
 }
 
 
