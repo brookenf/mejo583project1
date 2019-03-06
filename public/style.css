@@ -93,6 +93,13 @@ canvas#barChart {
   background-repeat: no-repeat;
 }
 
+/* 
+
+  To make the really nice micro-interaction underneath links: 
+  found this code here: https://stackoverflow.com/questions/28623446/hover-effect-expand-bottom-border 
+
+*/
+
 .spider-man a{
   display: inline-block;
   color: inherit;
