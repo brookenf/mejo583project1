@@ -3,6 +3,19 @@
 document.addEventListener("DOMContentLoaded", () => {
   // client-side js
   // run by the browser each time your view template is loaded
+  
+  // Header sticky
+  console.log('testing to make sure headers.js is linked up');
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+          document.getElementById("header").style.top = "0";
+      } else {
+          document.getElementById("header").style.top = "-80px";
+      }
+      prevScrollpos = currentScrollPos;
+  }
 
   console.log('hello world, my DOM is loaded :o');
   
