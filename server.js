@@ -76,32 +76,66 @@ var marvel = api.createClient({
 // Marvel Characters data
 let characters = [{
     "name": "Iron Man",
-    "team": "Avengers"
+    "team": "Avengers",
+    "status": "alive"
   },
   {
     "name": "Captain America",
-    "team": "Avengers"
+    "team": "Avengers",
+    "status": "alive"
   },
   {
     "name": "Hulk",
-    "team": "Avengers"
+    "team": "Avengers",
+    "status": "alive"
   }, 
   {
     "name": "Black Widow",
-    "team": "Avengers"
+    "team": "Avengers",
+    "status": "alive"
   },
   {
     "name": "Hawkeye",
-    "team": "Avengers"
+    "team": "Avengers",
+    "status": "alive"
   },
   {
     "name": "Thor",
+    "team": "Avengers",
+    "status": "alive"
+  },
+  {
+    "name": "Dr. Strange",
+    "team": "Avengers",
+    "status": "died"
+  },
+  {
+    "name": "Spider-Man",
+    "team": "Avengers",
+    "status": "died"
+  },
+  {
+    "name": "Black Panther",
+    "team": "Avengers",
+    "status": "died"
+  },
+  {
+    "name": "Ant-Man",
     "team": "Avengers"
   },
   {
-    "name": "Captain America",
+    "name": "Vision",
+    "team": "Avengers",
+    "status": "dead"
+  },
+  {
+    "name": "Scarlet Witch",
     "team": "Avengers"
-  },               
+  },
+  {
+    "name": "Falcon",
+    "team": "Avengers"
+  },                
 ];
 
 
