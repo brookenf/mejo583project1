@@ -25,6 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
       .addTo(controller);
   }
   
+ 
+  
   // Creators data
   fetch('/creators').then(resp => resp.json()).then((data) => {
     console.group('%cResponse from /creators', 'color: #4B9CD3; font-size: large');
@@ -147,31 +149,8 @@ document.addEventListener("DOMContentLoaded", () => {
     spideyData.innerHTML = html;  
   });
   
-  
-  // Marvel API data
-  fetch('/avengers').then(resp => resp.json()).then((data) => {
-    console.group('%cResponse from /characters', 'color: #4B9CD3; font-size: large');
-    console.log(data);
-    console.groupEnd();  
-    
-    var html = '';
-    var char = document.getElementById('marvel-characters');
-    
-        
-//     for(var i = 0; i < data.length; i ++) {
-//       html += '<div class="flex-column character__card">';      
-//         html += `<h1>${data[i].name}</h1>`;
-       
-//         // Get the images
-//         var ext = data[i].thumbnail.extension;
-//         html += `<img src="${data[i].thumbnail.path}/standard_medium.${ext}" alt="${data[i].name}">`;
-//         html += `<p>${data[i].description}</p>`;
-//       html += '</div>'
-//     }
-    
-//     char.innerHTML = html;
-     
-  });
+  fetch('/avengers').then(resp => resp.json()).then((data) +.
+ 
   
   
     

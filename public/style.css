@@ -59,13 +59,10 @@ canvas {
 
 canvas#barChart {
   width: 70vw;
-  height: 50vh; 
+  height: 70vh; 
 }
 
-#marvel-characters{
-  display: grid;
-  grid-template-columns: repeat(5, 20%);
-}
+
 
 .spider-man {
   background-color: #DF1F2D;
