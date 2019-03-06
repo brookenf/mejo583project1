@@ -50,10 +50,10 @@ document.addEventListener("DOMContentLoaded", () => {
       arrStoriesStats.push(storiesData);
     });
     
-    console.log(arrName);  
-    console.log(arrComicsStats);
-    console.log(arrSeriesStats);
-    console.log(arrStoriesStats);
+    // console.log(arrName);  
+    // console.log(arrComicsStats);
+    // console.log(arrSeriesStats);
+    // console.log(arrStoriesStats);
   
     // Build the chart inside here
     var ctx = document.getElementById("barChart").getContext("2d");
@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   // Marvel API data
-  fetch('/characters').then(resp => resp.json()).then((data) => {
+  fetch('/avengers').then(resp => resp.json()).then((data) => {
     console.group('%cResponse from /characters', 'color: #4B9CD3; font-size: large');
     console.log(data);
     console.groupEnd();  
@@ -158,18 +158,18 @@ document.addEventListener("DOMContentLoaded", () => {
     var char = document.getElementById('marvel-characters');
     
         
-    for(var i = 0; i < data.length; i ++) {
-      html += '<div class="flex-column character__card">';      
-        html += `<h1>${data[i].name}</h1>`;
+//     for(var i = 0; i < data.length; i ++) {
+//       html += '<div class="flex-column character__card">';      
+//         html += `<h1>${data[i].name}</h1>`;
        
-        // Get the images
-        var ext = data[i].thumbnail.extension;
-        html += `<img src="${data[i].thumbnail.path}/standard_medium.${ext}" alt="${data[i].name}">`;
-        html += `<p>${data[i].description}</p>`;
-      html += '</div>'
-    }
+//         // Get the images
+//         var ext = data[i].thumbnail.extension;
+//         html += `<img src="${data[i].thumbnail.path}/standard_medium.${ext}" alt="${data[i].name}">`;
+//         html += `<p>${data[i].description}</p>`;
+//       html += '</div>'
+//     }
     
-    char.innerHTML = html;
+//     char.innerHTML = html;
      
   });
   
