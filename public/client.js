@@ -166,10 +166,14 @@ document.addEventListener("DOMContentLoaded", () => {
     html += '<div class="flex marvel__avengers">'
     // loop through the data
     data.forEach((avenger) => {
-      console.log(avenger);
+      // console.log(avenger);
       
       html += `<div class="mix ${avenger.status}">`;
         html += `<h2>${avenger.name}</h2>`;
+        var imgSrc = avenger.data.thumbnail.path;
+        var imgExt = avenger.data.thumbnail.extension;
+        console.log(avenger.name, imgSrc, imgExt);
+        html += `<img src="${imgSrc}/standard_xlarge.${imgExt}" />`;
       
       html += `</div>`;
     });

@@ -134,9 +134,12 @@ canvas#barChart {
   transform: scaleX(1); 
 }
 
-.marvel___
+.marvel__avengers {
+  flex-wrap: wrap;
+}
 
 .mix {
+  flex-basis: 25%;
   width: 25vw;
 }
 
