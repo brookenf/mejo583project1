@@ -48,7 +48,10 @@ var marvel = api.createClient({
   
   I've also commented them out so they don't continuously run and use up my 3000 per day limit 
   
-  Here is where I learned to write a fs.writeFile as a promise: 
+  Here is where I learned to write a fs.writeFile as a promise: https://stackoverflow.com/questions/31978347/fs-writefile-in-a-promise-asynchronous-synchronous-stuff,
+  though the answer now seems to be to use var fs = require('fs').promises and then use fileHandle.writeFile(data, options) but then you have to write the function as 
+  async and I wasn't sure how to do that. The return new Promise with the function seemed to work with no bugs for me
+  
 */
 
 // Spider-Man data
@@ -78,7 +81,27 @@ let characters = [{
   {
     "name": "Captain America",
     "team": "Avengers"
-  }
+  },
+  {
+    "name": "Hulk",
+    "team": "Avengers"
+  }, 
+  {
+    "name": "Black Widow",
+    "team": "Avengers"
+  },
+  {
+    "name": "Hawkeye",
+    "team": "Avengers"
+  },
+  {
+    "name": "Thor",
+    "team": "Avengers"
+  },
+  {
+    "name": "Captain America",
+    "team": "Avengers"
+  },               
 ];
 
 
