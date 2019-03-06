@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
       
         urls.forEach((url) => {
           if (url.type === "wiki") {
-            html += `<a href="${url.url}" target="">`;
+            html += `<a href="${url.url}" target="_blank">`;
               html += `<h2>${avenger.name}</h2>`;
             html += '</a>';
           }
