@@ -104,6 +104,8 @@ canvas#barChart {
 .characters {
   text-align: center;
   padding: 5vh 0;
+  color: #fff;
+  background-color: #333;
 }
 
 .buttons {
@@ -111,6 +113,26 @@ canvas#barChart {
   margin-bottom: 3vh;
   justify-content: space-around;
 }
+
+.buttons div {
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.buttons div:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px #fff;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out; 
+  transform-origin:  0% 50%;
+}
+
+.buttons div:hover:after {
+  transform: scaleX(1); 
+}
+
 
 
 

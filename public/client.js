@@ -158,9 +158,16 @@ document.addEventListener("DOMContentLoaded", () => {
     var html = '';
     var avengersContainer = document.getElementById('marvel-characters');
     
-    html += '<div class ="buttons flex"><div data-filter="all">All</button>';
-    html += '<div data-filter=".alive">Alive</button>';
-    html += '<div data-filter=".died">Died/Disintegrated</button></div>';
+    html += '<div class ="buttons flex"><div data-filter="all">All</div>';
+    html += '<div data-filter=".alive">Alive</div>';
+    html += '<div data-filter=".died">Died/Disintegrated</div></div>';
+    
+    // loop through the data
+    data.forEach((avenger) => {
+      console.log(avenger);
+      
+      html += `<div class="mix ${avenger.status}">`;
+    });
     
     avengersContainer.innerHTML = html;
   });
