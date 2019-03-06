@@ -175,9 +175,9 @@ document.addEventListener("DOMContentLoaded", () => {
     var avengersContainer = document.getElementById('marvel-characters');
     
     html += '<div class ="controls buttons flex">';
-      html += '<div data-filter="all">All</div>';
-      html += '<div data-filter=".alive">Alive</div>';
-      html += '<div data-filter=".died">Died/Disintegrated</div>';
+      html += '<div data-filter="all"><span>All</span></div>';
+      html += '<div data-filter=".alive"><span>Alive</span></div>';
+      html += '<div data-filter=".died"><span>Died/Disintegrated</span></div>';
     html += '</div>';
     
     // Build a div for the looped data to sit in
@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
     data.forEach((avenger) => {
       // console.log(avenger);
       
-      html += `<div class="mix ${avenger.status} ${avenger.team}">`;
+      html += `<div class="mix ${avenger.status} ${avenger.team} flex-column">`;
       
         console.log(avenger.data.urls);
         var urls = avenger.data.urls;

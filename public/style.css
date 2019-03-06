@@ -143,11 +143,15 @@ canvas#barChart {
 .buttons div {
   font-size: 1.3rem;
   cursor: pointer;
-  display: inline-block;
   flex-basis: 33%;
 }
 
-.buttons div:after {
+.buttons span, .Avengers h2 {
+  display: inline-block;
+}
+
+
+.buttons span:after, .Avengers h2:after{
   display: block;
   content: '';
   border-bottom: solid 3px #fff;  
@@ -156,7 +160,7 @@ canvas#barChart {
   transform-origin:  0% 50%;
 }
 
-.buttons div:hover:after {
+.buttons span:hover:after, .Avengers h2:hover:after {
   transform: scaleX(1); 
 }
 
@@ -168,6 +172,8 @@ canvas#barChart {
   flex-basis: 25%;
   width: 25vw;
 }
+
+
 
 .Avengers img {
   border-radius: 50%;
