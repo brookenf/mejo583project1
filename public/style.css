@@ -138,12 +138,12 @@ canvas#barChart {
   flex-wrap: wrap;
 }
 
-.mix {
+.Avengers {
   flex-basis: 25%;
   width: 25vw;
 }
 
-.mix img {
+.Avengers img {
   border-radius: 50%;
 }
 

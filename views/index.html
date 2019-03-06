@@ -58,6 +58,9 @@
       
       <section class="panel characters">
         <h1>So after <em>Avengers: Infinity War</em>, who's still alive?</h1>
+        <p>
+          At the end of <em>Avengers: Infinity War</em>, many of the Universe's greatest heros were destroyed by Thanos and the Infinity Gauntlet. However, some superheroes were able to survive and can potentially reverse the course tha
+        </p>
         <div id="marvel-characters" class="container flex-column"></div>
         Data provided by Marvel. ©2019 Marvel.
         <br/>
@@ -79,9 +82,13 @@
     
     <!-- import MixItUp -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
-    
+   
     <!-- import the webpage's client-side javascript file -->
     <script src="/client.js" defer></script>
+    
+    <script>
+      var mixer = mixitup('#marvel-characters');
+    </script>
 
   </body>
 </html>

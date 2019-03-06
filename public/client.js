@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
     data.forEach((avenger) => {
       // console.log(avenger);
       
-      html += `<div class="mix ${avenger.status}">`;
+      html += `<div class="mix ${avenger.status} ${avenger.team}">`;
         html += `<h2>${avenger.name}</h2>`;
         var imgSrc = avenger.data.thumbnail.path;
         var imgExt = avenger.data.thumbnail.extension;
