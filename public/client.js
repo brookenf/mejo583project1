@@ -149,7 +149,21 @@ document.addEventListener("DOMContentLoaded", () => {
     spideyData.innerHTML = html;  
   });
   
-  fetch('/avengers').then(resp => resp.json()).then((data) +.
+  fetch('/avengers').then(resp => resp.json()).then((data) => {
+    console.group('%cResponse from /avengers', 'color: #4B9CD3; font-size: large');
+    console.log(data);
+    console.groupEnd(); 
+    
+    // Define the variables
+    var html = '';
+    var avengersContainer = document.getElementById('marvel-characters');
+    
+    html += '<div class ="buttons flex"><div data-filter="all">All</button>';
+    html += '<div data-filter=".alive">Alive</button>';
+    html += '<div data-filter=".died">Died/Disintegrated</button></div>';
+    
+    avengersContainer.innerHTML = html;
+  });
  
   
   

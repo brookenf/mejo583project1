@@ -106,6 +106,13 @@ canvas#barChart {
   padding: 5vh 0;
 }
 
+.buttons {
+  flex-basis: 100%;
+  margin-bottom: 3vh;
+  justify-content: space-around;
+}
+
+
 
 
 

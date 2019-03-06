@@ -74,72 +74,72 @@ var marvel = api.createClient({
 
 
 // Avengers Characters data
-// let avengers = [{
-//     "name": "Iron Man",
-//     "team": "Avengers",
-//     "status": "alive"
-//   },
-//   {
-//     "name": "Captain America",
-//     "team": "Avengers",
-//     "status": "alive"
-//   },
-//   {
-//     "name": "Hulk",
-//     "team": "Avengers",
-//     "status": "alive"
-//   }, 
-//   {
-//     "name": "Black Widow",
-//     "team": "Avengers",
-//     "status": "alive"
-//   },
-//   {
-//     "name": "Hawkeye",
-//     "team": "Avengers",
-//     "status": "alive"
-//   },
-//   {
-//     "name": "Thor",
-//     "team": "Avengers",
-//     "status": "alive"
-//   },
-//   {
-//     "name": "Doctor Strange",
-//     "team": "Avengers",
-//     "status": "died"
-//   },
-//   {
-//     "name": "Spider-Man",
-//     "team": "Avengers",
-//     "status": "died"
-//   },
-//   {
-//     "name": "Black Panther",
-//     "team": "Avengers",
-//     "status": "died"
-//   },
-//   {
-//     "name": "Ant-Man (Scott Lang)",
-//     "team": "Avengers",
-//     "status": "alive"
-//   },
-//   {
-//     "name": "Vision",
-//     "team": "Avengers",
-//     "status": "died"
-//   },
-//   {
-//     "name": "Scarlet Witch",
-//     "team": "Avengers",
-//     "status": "died"
-//   },
-//   {
-//     "name": "Falcon",
-//     "team": "Avengers",
-//     "status": "died"
-//   },                
-// ];
+let avengers = [{
+    "name": "Iron Man",
+    "team": "Avengers",
+    "status": "alive"
+  },
+  {
+    "name": "Captain America",
+    "team": "Avengers",
+    "status": "alive"
+  },
+  {
+    "name": "Hulk",
+    "team": "Avengers",
+    "status": "alive"
+  }, 
+  {
+    "name": "Black Widow",
+    "team": "Avengers",
+    "status": "alive"
+  },
+  {
+    "name": "Hawkeye",
+    "team": "Avengers",
+    "status": "alive"
+  },
+  {
+    "name": "Thor",
+    "team": "Avengers",
+    "status": "alive"
+  },
+  {
+    "name": "Doctor Strange",
+    "team": "Avengers",
+    "status": "died"
+  },
+  {
+    "name": "Spider-Man",
+    "team": "Avengers",
+    "status": "died"
+  },
+  {
+    "name": "Black Panther",
+    "team": "Avengers",
+    "status": "died"
+  },
+  {
+    "name": "Ant-Man (Scott Lang)",
+    "team": "Avengers",
+    "status": "alive"
+  },
+  {
+    "name": "Vision",
+    "team": "Avengers",
+    "status": "died"
+  },
+  {
+    "name": "Scarlet Witch",
+    "team": "Avengers",
+    "status": "died"
+  },
+  {
+    "name": "Falcon",
+    "team": "Avengers",
+    "status": "died"
+  },                
+];
 
 // Create for loop over avengers array
 // avengers.forEach((avenger) => {
@@ -223,18 +223,18 @@ let creators = [{
 
 // Create for loop over creators
 
-creators.forEach((creator) => {
+// creators.forEach((creator) => {
   
   // call Marvel API data
-  marvel.creators.findByName(creator.first, '', creator.last)
-    .then(function (res) {
+//   marvel.creators.findByName(creator.first, '', creator.last)
+//     .then(function (res) {
       // console.log('Found creator ID', creator.first, creator.last, res.data[0].id);
       
-      creator.data = res.data[0];
+//       creator.data = res.data[0];
       // console.log(creator.data);
     
     // create a while loop 
-    while (creators.filter(creator => creator.data !== undefined).length === creators.length) {
+//     while (creators.filter(creator => creator.data !== undefined).length === creators.length) {
         // console.log(creators);
      
       // write the file
@@ -246,12 +246,12 @@ creators.forEach((creator) => {
 //         });
       
 //       });
-    }
+//     }
     
-    })
-    .fail(console.error)
-    .done();
-});
+//     })
+//     .fail(console.error)
+//     .done();
+// });
   
 
 //-------------------------------------------------------------//
