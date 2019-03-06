@@ -73,8 +73,8 @@ var marvel = api.createClient({
 */
 
 
-// Marvel Characters data
-let characters = [{
+// Avengers Characters data
+let avengers = [{
     "name": "Iron Man",
     "team": "Avengers",
     "status": "alive"
@@ -121,22 +121,32 @@ let characters = [{
   },
   {
     "name": "Ant-Man",
-    "team": "Avengers"
+    "team": "Avengers",
+    "status": "alive"
   },
   {
     "name": "Vision",
     "team": "Avengers",
-    "status": "dead"
+    "status": "died"
   },
   {
     "name": "Scarlet Witch",
-    "team": "Avengers"
+    "team": "Avengers",
+    "status": "died"
   },
   {
     "name": "Falcon",
-    "team": "Avengers"
+    "team": "Avengers",
+    "status": "died"
   },                
 ];
+
+// Create for loop over avengers array
+avengers.forEach((avenger) => {
+  console.log(avenger);
+
+});
+
 
 
 // Creators
